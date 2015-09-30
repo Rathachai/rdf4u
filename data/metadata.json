@@ -1,0 +1,18 @@
+{
+	"Literals" : [
+		{
+			"property" : "http://www.w3.org/2000/01/rdf-schema#label",
+			"plabel" : "Label",
+			"value" : "Example Label"
+		},
+		{
+			"property" : "http://purl.org/dc/elements/1.1/description",
+			"plabel" : "Description",
+			"value":"Example Description"
+		}],
+		
+	"Images":[
+			"http://rathachai.github.io/d3rdf/images/img1.jpg",
+			"http://rathachai.github.io/d3rdf/images/img2.jpg"
+		]
+}

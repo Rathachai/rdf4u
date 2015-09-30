@@ -1,0 +1,2307 @@
+{
+    "Triples": [
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://lod.ac/ns/species#ScientificName",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://lod.ac/ns/species#ScientificName",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://lod.ac/ns/species#ScientificName",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://lod.ac/ns/species#ScientificName",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://lod.ac/ns/species#TaxonName",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://lod.ac/ns/species#TaxonName",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://lod.ac/ns/species#TaxonName",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Bubo",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Bubo",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30460",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Genus",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Bubo",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Bubo",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30460",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 1
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 1
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 1
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Genus",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30460",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Bubo",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30460",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Genus",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30460",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Class",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/birds",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8782",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/birds",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Class",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/birds",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/birds",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Class",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/birds",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://lod.ac/species/Aves",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/birds",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Superorder",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8825",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://lod.ac/ncbi/8825",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8825",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Superorder",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8825",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://lod.ac/species/Neognathae",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8825",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Order",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/owls",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30458",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/owls",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Order",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/owls",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/owls",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Order",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/owls",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://lod.ac/species/Strigiformes",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/owls",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 1
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Family",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 1
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Family",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 1
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Family",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://lod.ac/ncbi/436492",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://lod.ac/ncbi/436492",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://lod.ac/ncbi/436492",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://lod.ac/ncbi/436492",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://lod.ac/ncbi/436492",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=436492",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://lod.ac/ncbi/436492",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=436492",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://lod.ac/species/Coelurosauria",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://lod.ac/species/Coelurosauria",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://lod.ac/species/Coelurosauria",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://lod.ac/species/Coelurosauria",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://lod.ac/species/Coelurosauria",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=436492",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://lod.ac/species/Coelurosauria",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=436492",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasSynonym",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://lod.ac/species/eagle_owls",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://lod.ac/species/eagle_owls",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#CommonName",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Family",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/ncbi/30459",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Family",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/bdls/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#ScientificName",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/bdls/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/species/Strigidae",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://lod.ac/ncbi/30459",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8782",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Aves",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/8825",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Neognathae",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/ncbi/436492",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasSuperTaxon",
+            "object": "http://lod.ac/species/Coelurosauria",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasTaxonRank",
+            "object": "http://lod.ac/species/Family",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasNCBIPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/ncbi/30458",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/bdls/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasParentTaxon",
+            "object": "http://lod.ac/species/Strigiformes",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://lod.ac/species/Strigidae",
+            "predicate": "http://lod.ac/ns/species#hasPage",
+            "object": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://lod.ac/species/Bubo",
+            "predicate": "http://lod.ac/ns/species#hasTaxonName",
+            "object": "http://lod.ac/species/eagle_owls",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://lod.ac/species/eagle_owls",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#TaxonName",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://lod.ac/species/eagle_owls",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://lod.ac/ns/species#CommonName",
+            "vw": 0.32
+        }
+    ],
+    "Labels": {
+        "http://lod.ac/species/Bubo": "Bubo",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "type",
+        "http://lod.ac/ns/species#ScientificName": "学名",
+        "http://www.w3.org/2000/01/rdf-schema#Class": "w3:Class",
+        "http://www.w3.org/2002/07/owl#Class": "w3:Class",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": "subClassOf",
+        "http://lod.ac/ns/species#TaxonName": "lod:TaxonName",
+        "http://www.w3.org/2002/07/owl#sameAs": "sameAs",
+        "http://lod.ac/bdls/species/Bubo": "Bubo",
+        "http://lod.ac/ncbi/30460": "Bubo",
+        "http://lod.ac/ns/species#hasSuperTaxon": "hasSuperTaxon",
+        "http://lod.ac/ncbi/8782": "Aves",
+        "http://lod.ac/bdls/species/Aves": "Aves",
+        "http://lod.ac/species/Aves": "Aves",
+        "http://lod.ac/ncbi/8825": "Neognathae",
+        "http://lod.ac/species/Neognathae": "Neognathae",
+        "http://lod.ac/ncbi/30458": "Strigiformes",
+        "http://lod.ac/bdls/species/Strigiformes": "Strigiformes",
+        "http://lod.ac/species/Strigiformes": "Strigiformes",
+        "http://lod.ac/ncbi/30459": "Strigidae",
+        "http://lod.ac/bdls/species/Strigidae": "Strigidae",
+        "http://lod.ac/species/Strigidae": "Strigidae",
+        "http://lod.ac/ncbi/436492": "Coelurosauria",
+        "http://lod.ac/species/Coelurosauria": "Coelurosauria",
+        "http://lod.ac/ns/species#hasTaxonRank": "hasTaxonRank",
+        "http://lod.ac/species/Genus": "lod:Genus",
+        "http://lod.ac/ns/species#hasSynonym": "hasSynonym",
+        "http://lod.ac/species/eagle_owls": "eagle owls",
+        "http://lod.ac/ns/species#hasNCBIPage": "hasNCBIPage",
+        "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30460": "nih:wwwtax.cgi?mode=Info&id=30460",
+        "http://lod.ac/ns/species#hasParentTaxon": "hasParentTaxon",
+        "http://lod.ac/ns/species#hasPage": "hasPage",
+        "http://lod.ac/ns/species#hasTaxonName": "hasTaxonName",
+        "http://lod.ac/species/Class": "lod:Class",
+        "http://lod.ac/species/birds": "birds",
+        "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8782": "nih:wwwtax.cgi?mode=Info&id=8782",
+        "http://lod.ac/species/Superorder": "lod:Superorder",
+        "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=8825": "nih:wwwtax.cgi?mode=Info&id=8825",
+        "http://lod.ac/species/Order": "lod:Order",
+        "http://lod.ac/species/owls": "owls",
+        "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30458": "nih:wwwtax.cgi?mode=Info&id=30458",
+        "http://lod.ac/species/Family": "lod:Family",
+        "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=30459": "nih:wwwtax.cgi?mode=Info&id=30459",
+        "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=436492": "nih:wwwtax.cgi?mode=Info&id=436492",
+        "http://lod.ac/ns/species#CommonName": "Common Name"
+    }
+}

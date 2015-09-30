@@ -1,0 +1,1005 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>RDF4U</title>
+	<meta name="author" content="Rathachai CHAWUTHAI">
+
+	<!--<link href="./lib/jquerymobile/jquery.mobile.min.css" rel="stylesheet">-->
+	<link href="./lib/jqueryui/jquery-ui.min.css" rel="stylesheet">
+	<link href="./lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet">
+	<link href="./lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet">
+
+	<link href="./lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="./lib/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	
+	<style type="text/css">
+		body > .container{
+			width:100%;
+		}
+		
+		table td {
+			word-wrap: break-word !important;
+			word-break: break-all;
+		}
+		
+		div.checkbox label{
+			word-wrap: break-word !important;
+			word-break: break-all;
+		}
+
+		.fixheight1 {
+			height:680px;
+		}
+
+		.node {
+		  stroke: #fff;
+		  fill:#ddd;
+		  stroke-width: 1.5px;
+		}
+
+		.link {
+		  fill: none;
+		  stroke: #999;
+		  stroke-opacity: .6;
+		}
+
+		marker {
+			stroke: #999;
+			fill:rgba(124,240,10,0);
+		}
+
+		.node-text {
+		  font: 11px sans-serif;
+		  fill:black;
+		}
+
+		.link-text {
+		  font: 9px sans-serif;
+		  fill:grey;
+		}
+		
+		svg{
+			border:1px solid #bbb;
+		}
+
+		.viz-menu{
+			margin-top: 20px;
+		}
+
+		div#tblImage img{
+			margin-top:5px;
+			width:100%;
+			outline: 1px solid white;
+  			outline-offset: -4px;
+		}
+		
+		#tblBodyRDF small{
+			font-style: italic;
+		}
+		
+		#tblBodyRDF small a{
+			color:#aaa; 
+		}
+		
+		#tblBodyRDF small a:hover{
+			color:#337ab7;
+		}
+
+		.checkbox {
+			position:relative;
+			padding-right:30px;
+		}
+		.checkbox span.badge{
+			position:absolute;
+			right:0;
+		}
+
+		#tblProperties .checkbox{
+			border-bottom:solid 1px #eee;
+		}
+	</style>
+	
+	<script src="./lib/jquery/jquery2.1.3.js"></script>
+	<script src="./lib/jqueryui/jquery-ui.min.js"></script>
+	<script src="./lib/jqueryui/jquery.ui.touch-punch.min.js"></script> 
+	<!--<script src="./lib/jquerymobile/jquery.mobile.min.js"></script> -->  
+
+	<script src="./lib/bootstrap/js/bootstrap.js"></script>
+	<script src="./lib/d3/d3.v3.min.js"></script>
+	<script>
+		// CONFIG - BEGIN *****************************
+		var metaOntoNs = [
+							"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+							"http://www.w3.org/2000/01/rdf-schema#",
+							"http://www.w3.org/2002/07/owl#"
+						];
+
+
+	  	var svgW = 800;
+	  	var svgH = 600;
+	  	var vw1 = 0.25;
+	  	var vw2 = 0.75;
+
+	  	var ignoredProps = [];
+		var labels = [];
+
+		var isToDisplayLabel = true;
+		var isToMerge = true;
+		var isToIgnoreWeb = true;
+		var isToIgnoreMetaOnto = true;
+		var isToIgnoreTransitive = true;
+		var isToIgnoreMetaProperty = true;
+
+		var METADATA =[];
+
+
+	  	var triples = [
+	  			{subject:"ex:ThaiLand", 	predicate:"ex:hasFood", 	object:"ex:TomYumKung", vw:0.1},
+				{subject:"ex:TomYumKung", 	predicate:"ex:isFoodOf", 	object:"ex:ThaiLand", vw:0.2},
+	  			{subject:"ex:TomYumKung", 	predicate:"rdf:type", 		object:"ex:SpicyFood", vw:0.2},
+	  			{subject:"ex:TomYumKung", 	predicate:"ex:includes", 	object:"ex:shrimp", vw:0.3},
+	  			{subject:"ex:TomYumKung", 	predicate:"ex:includes", 	object:"ex:chilly", vw:0.4},
+				{subject:"ex:TomYumKung", 	predicate:"ex:requires", 	object:"ex:chilly", vw:0.5},
+				{subject:"ex:TomYumKung", 	predicate:"ex:hasSpicy", 	object:"ex:chilly", vw:0.6},
+	  			{subject:"ex:TomYumKung", 	predicate:"ex:includes", 	object:"ex:lemon", vw:0.7},
+	  			{subject:"ex:lemon", 		predicate:"ex:hasTaste", 	object:"ex:sour", vw:0.8},
+	  			{subject:"ex:chilly", 		predicate:"ex:hasTaste", 	object:"ex:spicy", vw:0.9}
+  		];
+		
+		//Random Weights
+		triples.forEach(function(triple){
+			triple.vw = Math.round(Math.random()*9+1)/10;
+		});
+
+		// CONFIG - END *****************************
+
+		function L(id){
+			var l = labels[id];
+			if(l==null) l=id;
+			return l;
+		}
+
+		function checkIsMetaOnto(uri){
+			var isOnto = false;
+			metaOntoNs.forEach(function(ns){
+				if(uri.indexOf(ns)==0) isOnto=true;
+			});
+			return isOnto;
+		}
+
+		function checkIsTransitive(subj,pred,obj){
+			var res = false;
+
+			var sMid = [];
+			var oMid = [];
+			triples.forEach(function(triple){
+				if(pred==triple.predicate){
+					if(subj == triple.subject) sMid.push(triple.object);
+					if(obj  == triple.object ) oMid.push(triple.subject);
+				}
+			});
+
+			if(sMid.length>0 && oMid.length>0){
+				oMid.filter(function(n){
+					if (sMid.indexOf(n)>-1){
+						res = true;
+						return res;
+					}
+				});
+			}
+			
+			return res;
+
+		}
+
+		function filterNodesById(nodes,id){
+			if(isToMerge){
+				return nodes.filter(function(n) { return L(n.id) === L(id); }); //Try to merge node
+			}else{
+				return nodes.filter(function(n) { return n.id === id; });
+			}
+		}
+		
+		function filterNodesByType(nodes,value){
+			return nodes.filter(function(n) { return n.type === value; });
+		}
+		
+		function filterUpdate(vw1, vw2){
+			graph = triplesToGraph(triples, graph, vw1, vw2);
+			update();
+		}
+		
+		function triplesToGraph(triples, xGraph, vw1, vw2){
+			vw1 = typeof vw1 !== 'undefined' ? vw1 : 0;
+			vw2 = typeof vw2 !== 'undefined' ? vw2 : 1;
+		
+			svg.html("");
+			
+			//Graph
+			var graph={nodes:[], links:[], triples:[]};
+			
+			//Initial Graph from triples
+			triples.forEach(function(triple){
+				if(triple.vw >= vw1 && triple.vw <= vw2) {
+					var subjId = triple.subject;
+					var predId = triple.predicate;
+					var objId = triple.object;
+
+					// Ignore Web
+					if(isToIgnoreWeb){
+						if(subjId.indexOf("?")>-1 || objId.indexOf("?")>-1) {
+							return;
+						}
+					}
+
+					// Ignore RDF/RDFS/OWL Resources
+					if(isToIgnoreMetaOnto){
+						if(checkIsMetaOnto(subjId) || checkIsMetaOnto(objId)){
+							return;
+						}
+					}
+
+					// Ignore RDF/RDFS/OWL Properties
+					if(isToIgnoreMetaProperty){
+						if(checkIsMetaOnto(predId)){
+							return;
+						}
+					}
+
+					// Remove transitive
+					if(isToIgnoreTransitive){
+						if(checkIsTransitive(subjId, predId, objId)){
+							return;
+						}
+					}
+
+					if($.inArray(predId, ignoredProps) === -1 && subjId!=objId){
+					
+						// --- Subject side ---
+						var toAddSubj = false;
+
+						var xSubjNode = filterNodesById(xGraph.nodes, subjId)[0];
+						var subjNode  = filterNodesById(graph.nodes, subjId)[0];
+						
+						if(subjNode==null){
+							subjNode = {id:subjId, label:subjId, weight:1, type:"node"};
+							
+							if(xSubjNode!=null){
+								subjNode.x = xSubjNode.x;
+								subjNode.y = xSubjNode.y;
+							}
+
+							toAddSubj=true;
+							//graph.nodes.push(subjNode);
+						}
+
+						// --- Object side ---
+						var toAddObj = false;
+
+						var xObjNode  = filterNodesById(xGraph.nodes, objId)[0];
+						var objNode   = filterNodesById(graph.nodes.concat(subjNode), objId)[0];
+
+						if(objNode==null){
+							objNode = {id:objId, label:objId, weight:1, type:"node"};
+							
+							if(xObjNode!=null){
+								objNode.x = xObjNode.x;
+								objNode.y = xObjNode.y;
+							}
+							
+							toAddObj=true;
+							//graph.nodes.push(objNode);
+						}
+
+
+						// --- Property side ---
+						subjId = subjNode.id;
+						objId = objNode.id;
+						
+						var trId = subjId + predId + objId ; 
+						if(isToMerge) trId = L(subjId) + L(predId) + L(objId) ; //Try to merge nodes
+						var xPredNode = filterNodesById(xGraph.nodes, trId)[0];
+						var predNode  = filterNodesById(graph.nodes, trId)[0];
+						
+						if(predNode == null && subjId!==objId){
+
+							predNode = {id:trId, pid:predId , label:predId, weight:1, type:"pred"} ;
+							
+							if(xPredNode !=null){
+								predNode.x = xPredNode.x;
+								predNode.y = xPredNode.y;
+							}
+						
+							if(toAddSubj) graph.nodes.push(subjNode);
+							if(toAddObj) graph.nodes.push(objNode);
+							graph.nodes.push(predNode);
+							
+							var blankLabel = "";
+							
+							graph.links.push({source:subjNode, target:predNode, predicate:blankLabel, weight:1});
+							graph.links.push({source:predNode, target:objNode, predicate:blankLabel, weight:1});
+							
+							graph.triples.push({s:subjNode, p:predNode, o:objNode});
+						}
+					}
+				}
+			});
+			
+			return graph;
+		}
+		
+		
+		function update(){
+			// Init Layout
+			svgW = $("svg").parent().width() ;
+			force = d3.layout.force().size([svgW, svgH]);
+
+			// ==================== Add Marker ====================
+			svg.append("svg:defs").selectAll("marker")
+			    .data(["end"])
+			  .enter().append("svg:marker")
+			    .attr("id", String)
+			    .attr("viewBox", "0 -5 10 10")
+			    .attr("refX", 30)
+			    .attr("refY", -0.5)
+			    .attr("markerWidth", 6)
+			    .attr("markerHeight", 6)
+			    .attr("orient", "auto")
+			  .append("svg:polyline")
+			    .attr("points", "0,-5 10,0 0,5")
+			    ;
+				
+			// ==================== Add Links ====================
+			 var links = svg.selectAll(".link")
+								.data(graph.triples)
+								.enter()
+								.append("path")
+									.attr("marker-end", "url(#end)")
+									.attr("class", "link")
+							;
+									
+			// ==================== Add Link Names =====================
+			var linkTexts = svg.selectAll(".link-text")
+		                .data(graph.triples)
+		                .enter()
+		                .append("text")
+							.attr("class", "link-text")
+							.text( function (d) { if(isToDisplayLabel) return L(d.p.label); else return d.p.pid;  })
+						;
+
+				linkTexts.append("title")
+						.text(function(d) { if(isToDisplayLabel) return d.p.pid; else return L(d.p.label); });
+						
+			// ==================== Add Link Names =====================
+			var nodeTexts = svg.selectAll(".node-text")
+		                .data(filterNodesByType(graph.nodes, "node"))
+		                .enter()
+		                .append("text")
+							.attr("class", "node-text")
+							.text( function (d) { if(isToDisplayLabel) return L(d.label); else return d.id; })
+						;
+
+				nodeTexts.append("title")
+						.text(function(d) { if(isToDisplayLabel) return d.id; else return L(d.label); });
+			
+			// ==================== Add Node =====================
+			var nodes = svg.selectAll(".node")
+								.data(filterNodesByType(graph.nodes, "node"))
+								.enter()
+								.append("circle")
+									.attr("class", "node")
+									.attr("r",8)
+									.on("dblclick", function(d) {
+										getMetadata(d.id);
+										if($('#btnMetadata').attr("aria-expanded")=="false"){
+											$('#btnMetadata').click();
+										}
+										
+									})
+									.call(force.drag)
+							;//nodes
+		
+			// ==================== Force ====================
+			force.on("tick", function() {
+				nodes
+					.attr("cx", function(d){ return d.x; })
+					.attr("cy", function(d){ return d.y; })
+					;
+				
+				links
+					.attr("d", function(d) {
+						  return "M" 	+ d.s.x + "," + d.s.y
+										+ "S" + d.p.x + "," + d.p.y
+										+ " " + d.o.x + "," + d.o.y;
+						})
+					;
+								   
+				nodeTexts
+					.attr("x", function(d) { return d.x + 12 ; })
+					.attr("y", function(d) { return d.y + 3; })
+					;
+					
+
+				linkTexts
+					.attr("x", function(d) { return 4 + (d.s.x + d.p.x + d.o.x)/3  ; })
+					.attr("y", function(d) { return 4 + (d.s.y + d.p.y + d.o.y)/3 ; })
+					;
+			});
+			
+			// ==================== Run ====================
+			force
+		      .nodes(graph.nodes)
+		      .links(graph.links)
+			  .charge(-250)
+			  .linkDistance(20)
+		      .start()
+			  ;
+		}
+		
+	</script>
+
+
+	<script>
+		// ----------- QUERY --------------
+		function afterQuery(){
+			var preds = [];
+			var counts = [];
+
+			var chks = "";
+
+			var tblProps = $("#tblProperties");
+			tblProps.empty();
+
+			triples.forEach(function(triple){
+				var pred = triple.predicate;
+				if($.inArray(pred, preds) === -1) { 
+					preds.push(pred);
+					counts[pred]=1;
+				}else{
+					counts[pred]++;
+				}
+			});
+			
+			preds.sort();
+			
+			preds.forEach(function(pred){
+				tblProps.append(
+					"<div class='checkbox'>"
+						+ "<label title='"+ pred +"'>"
+							+ "<input id='chkProp' onchange='filterProperties();' type='checkbox' checked/>" 
+							+ L(pred) 
+						+ "</label>"
+						+ "<span class='badge'>" + counts[pred] + "</span> "
+					+ "</div>");
+			});
+
+		}
+
+		function filterProperties(){
+			ignoredProps = [];
+			var chkProps = $( "#chkProp:not(:checked)" ).parent();
+			chkProps.each(function(i){
+				ignoredProps.push($(chkProps[i]).attr("title"));
+			});
+
+
+			filterUpdate(vw1,vw2);
+		}
+
+		function toDisplayLabel(elem){
+			isToDisplayLabel = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+		
+		function toMergeNodes(elem){
+			isToMerge = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+
+		function toIgnoreMetaOnto(elem){
+			isToIgnoreMetaOnto = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+
+		function toIgnoreMetaProperty(elem){
+			isToIgnoreMetaProperty = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+
+		function toIgnoreTransitive(elem){
+			isToIgnoreTransitive = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+
+		function toIgnoreWeb(elem){
+			isToIgnoreWeb = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+		
+		
+		function generateRdfTable(triples){
+			triples.sort(function(a, b) {
+				return a.vw - b.vw;
+			});
+			
+			var rdfTBody = $("#tblBodyRDF");
+			rdfTBody.empty();
+			
+			triples.forEach(function(triple){
+				rdfTBody.append(
+					"<tr>"
+						+"<td>" + L(triple.subject) + "<br/><small>( <a href='" + triple.subject + "' target='_blank' >" + triple.subject + "</a> )</small></td>"
+						+"<td>" + L(triple.predicate) + "<br/><small>( <a href='" + triple.predicate + "' target='_blank' >" + triple.predicate + "</a> )</small></td>"
+						+"<td>" + L(triple.object) + "<br/><small>( <a href='" + triple.object + "' target='_blank' >" + triple.object + "</a> )</small></td>"
+						+"<td>" + Math.round(triple.vw*100) + "</td>"
+					+"</tr>");
+			});
+		}
+		
+		function queryGraph(isConstruct){
+			$(".queryLoader").show();
+			$(".queryResult").hide();
+			
+			/*
+			var endpoint = $("#txtEndPoint").val();
+			var query = $("#txtSparql").val();
+			var quri = $("#txtQuri").val();
+			var json = "./data/query.php?q=" + query;
+
+
+			//From a Graph
+			var type = "POST";
+			var param = {ep:endpoint, qr:query} ;
+
+			//From QURI
+			if(!isConstruct){
+				type="GET";
+				param = {ep:endpoint, quri:quri} ;
+			}
+			*/
+
+			var json_url = $("#txtQuri").val()
+			
+			$.ajax({ 
+			  //type: type, 
+			  //url: "./data/query.php",
+			  url: json_url, 
+			  //data : param,
+			  
+			  success: function(jgraph){
+				$(".queryLoader").hide();
+				triples = jgraph.Triples;
+				
+				if(triples!=undefined){
+					$(".queryResult").hide();
+				}else{
+					$(".queryResult").html("<div class='alert alert-warning' role='alert'>Fail to create a graph from the given URL.</div>");
+					$(".queryResult").show();
+					setTimeout(function(){ 
+						$(".queryResult").hide();
+					}, 5000 ); 
+				}
+				
+				labels = jgraph.Labels;
+				graph = triplesToGraph(triples, graph, vw1, vw2);
+				afterQuery();
+				generateRdfTable(triples);
+				update();
+					
+				
+			  } ,
+			  error:function (request, err, ex) {
+				$(".queryLoader").hide();
+				$(".queryResult").show();
+				$(".queryResult").html("<div class='alert alert-warning' role='alert'>Fail to create a graph from the given URL.</div>");
+				setTimeout(function(){ 
+					$(".queryResult").hide();
+				}, 10000 ); 
+			  }
+			 });
+		}
+
+	</script>
+
+	<script>
+		function getMetadata(uri){
+			$("#tblMetadataBody").empty();
+			$(".queryLoader").show();
+
+			if(METADATA[uri]==undefined){
+				var endpoint = $("#txtEndPoint").val();
+				$.ajax({
+				  //url: "./data/metadata.php?uri=" + uri + "&ep=" + endpoint
+				  url: "http://rathachai.github.io/d3rdf/data/metadata.json"
+				}).done(function(res) {
+					METADATA[uri] = res;
+				  	updateMetadataPanel(res);
+				}).always(function(){
+					$(".queryLoader").hide();
+				});
+			}else{
+				updateMetadataPanel(METADATA[uri]);
+				$(".queryLoader").hide();
+			}
+		}
+
+		function updateMetadataPanel(res){
+			var tbody = $("#tblMetadataBody");
+			tbody.empty();
+
+			res.Literals.forEach(function(lit){
+				tbody.append(
+					"<tr>"
+						+ "<td>" + lit.plabel + "</td>"
+						+ "<td>" + lit.value + "</td>"
+					+"</td>"
+					);
+
+			});
+
+			var timages = $("#tblImage");
+			timages.empty();
+			res.Images.forEach(function(img){
+				timages.append(
+					"<img img src='" + img + "'' />"
+					);
+
+			});
+		}
+	</script>
+
+	<script>
+		// Slider
+	  $(function() {
+			//---------- Loader -----------------------------------
+			$(".queryLoader").hide();
+			$(".queryResult").hide();
+
+	  		//---------- Slider -----------------------------------
+		    $( "#slider-range" ).slider({
+		      range: true,
+		      min: 0,
+		      max: 100,
+		      values: [ vw1*100, vw2*100 ],
+		      slide: function( event, ui ) {
+		        $( "#amount" ).text( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+		      },
+		      stop: function(event, ui){
+		      	vw1 = ui.values[ 0 ]/100.0;
+		      	vw2 = ui.values[ 1 ]/100.0;
+		      	filterUpdate(vw1,vw2);
+		      }
+		    });
+
+		    $( "#amount" ).text( $( "#slider-range" ).slider( "values", 0 ) +
+		      " - " + $( "#slider-range" ).slider( "values", 1 ) );
+
+		    //$( "#slider-range" ).draggable();
+
+
+		     //---------- Tab Graph / RDF -----------------------------------
+		    $('#rdfpanel a').click(function (e) {
+			  e.preventDefault()
+			  $(this).tab('show')
+			});
+		  });
+
+	  	function changeSlider(vw1, vw2){
+			$("#slider-range").slider('values',[ vw1*100, vw2*100 ]); 
+			$('#slider-range').trigger('refresh');	
+			this.vw1 = vw1;
+	      	this.vw2 = vw2;
+	      	filterUpdate(vw1,vw2);	
+	      	$( "#amount" ).text( Math.round(vw1*100) + " - " + Math.round(vw2*100) );
+
+		}
+	</script>
+</head>
+<body style="margin:20px;">
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">RDF4U</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class='active' ><a href='index.html' >Home</a></li><li  ><a href='exampledata.html' >Example Data</a></li></ul>   
+    </div><!-- /.nav-collapse -->
+  </div><!-- /.container -->
+</nav><!-- /.navbar -->
+
+<br/><br/>
+
+
+<div class="container">
+  	<div class="page-header">
+  		<h1>RDF4U</h1>
+	</div>
+
+	<section id="info">
+
+		<div class="container-fluid">
+		 	<div class="row">
+				<div class="col-md-3">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+				 	  <!-- SEARCH -->
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingSearch">
+					      <h4 class="panel-title">
+					        <a  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSearch" aria-expanded="true" aria-controls="collapseSearch">
+					         	Create a Graph
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseSearch" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSearch">
+					      <div class="panel-body">
+						    <div class="form-group">
+						      	<label for="txtEndPoint">Enter a URL of JSON file</label>
+						      	<input type="text" class="form-control" id="txtQuri" value="http://rathachai.github.io/d3rdf/data/lodac_bubo.json">
+						    </div>
+						    <div class="form-group">
+						        <button class="btn btn-primary" onclick="queryGraph(false)" style="width:100%">Visualize ...</button>
+						    </div>
+							<div id="queryLoader" class="queryLoader" style="text-align:center;">
+								<img id="imgLoader1" src="images/loader.gif" />
+							</div>
+							<div id="queryResult" class="queryResult"></div>
+					      </div>
+					    </div>
+					  </div>
+
+					  <!-- AdvancedSearch -->
+					  <!-- Use it for advance search -->
+					  <!--
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingAdvSearch">
+					      <h4 class="panel-title">
+					        <a  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseAdvSearch" aria-expanded="false" aria-controls="collapseAdvSearch">
+					         	Advanced Query
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseAdvSearch" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAdvSearch">
+					      <div class="panel-body">
+					      	<div class="form-group">
+						      	<label for="txtSparql">SPARQL (construct)</label>
+						        <textarea class="form-control" rows="15" id="txtSparql">PREFIX lodac: <http://lod.ac/species/> &#13;&#10;CONSTRUCT { ?s ?p ?o . ?o ?p1 ?o1 . } &#13;&#10;WHERE { &#13;&#10;   ?s ?p ?o . &#13;&#10;   ?o ?p1 ?o1 . &#13;&#10;   FILTER( ?s = lodac:Bubo ) &#13;&#10;   FILTER( isIRI(?o) && isIRI(?o1) && ?s!=?o1 ) &#13;&#10;} LIMIT 100 </textarea>
+						    </div>
+						    <div class="form-group">
+						      	<label for="txtEndPoint">SPARQL Endpoint</label>
+						      	<input type="text" class="form-control" id="txtEndPoint" value="http://lod.ac/species/sparql">
+						    </div>
+						    <div class="form-group">
+						        <button class="btn btn-primary" onclick="queryGraph(true)" style="width:100%">Query ...</button>
+						    </div>
+							<div id="queryLoader" class="queryLoader" style="text-align:center;">
+								<img id="imgLoader1" src="images/loader.gif" />
+							</div>
+							<div id="queryResult" class="queryResult"></div>
+					      </div>
+					    </div>
+					  </div>
+					  -->
+
+					  <!-- Info -->
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingInfo">
+					      <h4 class="panel-title">
+					        <a id="btnMetadata" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
+					          Resource Metadata
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseInfo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingInfo">
+					    	<div id="metadataLoader" class="queryLoader" style="text-align:center;padding-top:10px">
+						    	<img id="imgLoader1" src="images/loader.gif" />
+						    </div>
+					    	<div id="metadataResult">
+						      	<div class="panel-body">
+							        <table id="tblMetadata" class="table">
+									  <thead> <tr> <th>Property</th> <th>Value</th> </tr> </thead>
+									  <tbody id="tblMetadataBody">
+									  	<tr>
+									  		<td>Display metadata by</td>
+									  		<td>"Double clicking on any node."</td>
+									  	</tr>
+									  </tbody>
+									</table>
+
+									<div id="tblImage">
+										<!--<img src="http://www.soken.ac.jp/img/campuslife/sp/pic_index03.jpg">-->
+									</div>
+						      	</div>
+						    </div>
+					    </div>
+					  </div>
+
+					  <!-- Filter -->
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingUsrPref">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseUsrPref" aria-expanded="false" aria-controls="collapseUsrPref">
+					          Customization
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseUsrPref" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingUsrPref">
+						  <div class="panel-body">
+						  	 <strong>Common Features</strong>
+						  	 <div class="checkbox">
+							  <label ><input id="chkToDisplayLabel" type="checkbox" onclick="toDisplayLabel(this);" checked />Display Labels</label>
+							 </div>		
+							 <div class="checkbox">
+							  <label ><input id="chkToIgnoreWeb" type="checkbox" onclick="toIgnoreWeb(this);" checked  />Ignore web pages</label>
+							</div>	
+						  </div>			  	 
+						  <div class="panel-body">
+						  	 <strong>Graph Simplification</strong>
+
+							 <div class="checkbox">
+							  <label ><input id="chkToMerge" type="checkbox" onclick="toMergeNodes(this);" checked />Merge same-as nodes</label>
+							</div>
+	
+							<div class="checkbox">
+							  <label ><input id="chkToIgnoreTransitive" type="checkbox" onclick="toIgnoreTransitive(this);" checked />Remove transitive links</label>
+							</div>
+						  </div>
+					      <div class="panel-body">
+					        <strong>Property Selection</strong>
+					        <div class="checkbox">
+							  <label ><input id="chkToIgnoreMetaOnto" type="checkbox" onclick="toIgnoreMetaOnto(this);" checked />Ignore resources from RDF/RDFS/OWL</label>
+							</div>
+							<div class="checkbox">
+							  <label ><input id="chkToIgnoreMetaProperty" type="checkbox" onclick="toIgnoreMetaProperty(this);" checked />Ignore properties from RDF/RDFS/OWL</label>
+							</div>
+							<hr/>
+					      	<div id="tblProperties" >
+						        <div class="checkbox">
+								  <label title="rdf:type"><input type="checkbox" value="" checked />rdf:type</label>
+								</div>
+								<div class="checkbox">
+								  <label title="rdfs:subClassOf"><input type="checkbox" value="" checked />rdfs:subClassOf</label>
+								</div>
+								<div class="checkbox">
+								  <label title="rdfs:seeAlso"><input type="checkbox" value="" checked />rdfs:seeAlso</label>
+								</div>
+								<div class="checkbox">
+								  <label title="owl:sameAs"><input type="checkbox" value="" checked />owl:sameAs</label>
+								</div>
+							</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+
+				</div>
+				<div class="col-md-9">
+					<div class="panel panel-default">
+						<div class="panel-heading">Visaulization</div>
+												
+					  	<div class="panel-body" align="center">
+						  	<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#tabsvg" aria-controls="tabsvg" role="tab" data-toggle="tab">Graph</a></li>
+								<li role="presentation"><a href="#tabrdf" aria-controls="tabrdf" role="tab" data-toggle="tab">RDF Statements</a></li>
+							</ul>
+
+
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="tabsvg">
+									<div class="row viz-menu">
+										<div class="col-md-3" style="padding-left:30px;text-align:left;">
+									  		<label for="amount">Viz Level:</label>
+			  								<label type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+									  	</div>
+									 	<div class="col-md-9" style="padding-left:30px;padding-right:30px; text-align:right">
+									 		<div id="slider-range"></div>
+									 		<br/>
+									 		<div class="btn-group" role="group" aria-label="...">
+									 		  <button type="button" class="btn btn-default" onclick="changeSlider(vw1>0.1?(vw1-0.1):0,vw2>0.2?(vw2-0.1):0.1)"> < </button>
+									 		  <button type="button" class="btn btn-default" onclick="changeSlider(vw1>0.1?(vw1-0.1):0,vw2)"> - </button>
+
+											  <button type="button" class="btn btn-default" onclick="changeSlider(0.0,0.3)" style="width:200px"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Common Info</button>
+											  <button type="button" class="btn btn-default" onclick="changeSlider(0.3,1.0)" style="width:200px"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Topic-Specific Info</button>
+
+											  <button type="button" class="btn btn-default" onclick="changeSlider(vw1,vw2<0.9?(vw2+0.1):1.0)"> + </button>
+											  <button type="button" class="btn btn-default" onclick="changeSlider(vw1<0.8?(vw1+0.1):0.9,vw2<0.9?(vw2+0.1):1.0)"> > </button>
+											</div>
+									 	</div>
+									</div>
+
+		  							<div id="svg-body" class="panel-body"></div>
+								</div>
+
+
+								<div role="tabpanel" class="tab-pane" id="tabrdf">
+									<table class="table table-hover">
+									  <thead>
+										<tr> <th>Subject</th> <th>Predicate</th> <th>Object</th> <th>Score</th> </tr>
+									  </thead>
+									  <tbody id="tblBodyRDF">
+										<tr>
+											<td>:s</td>
+											<td>:p</td>
+											<td>:o</td>
+											<td>0.2</td>
+										</tr>
+									  </tbody>
+									</table>
+								</div>
+							</div>
+
+						  	
+
+					  	</div>
+					</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+ <script>
+		
+	var svg = d3.select("#svg-body").append("svg")
+				.attr("width", "100%")
+				.attr("height", svgH)
+				;
+				
+	var force = d3.layout.force().size([svgW, svgH]);
+	
+	var graph={nodes:[], links:[], triples:[]};
+	graph = triplesToGraph(triples, graph, vw1, vw2);
+
+	afterQuery();
+	generateRdfTable(triples);
+	
+	update();
+	
+
+ </script>
+
+ <script>
+ // ==================== TEMPORTY USE =========================
+
+ 	var json = "./data/lodac_bubo.json";
+ 	d3.json(json, function(error, jgraph){
+
+ 		triples = jgraph.Triples;
+ 		labels = jgraph.Labels;
+		graph = triplesToGraph(triples, graph, vw1, vw2);
+
+		afterQuery();
+		generateRdfTable(triples);
+		
+		update();
+	});
+
+ </script>
+
+  
+<footer class="footer" style="text-align:center;">
+  <hr/>
+  <div class="container">
+    <p class="text-muted">
+    	Design by Rathachai Chawuthai
+    	<br/>
+		<a target="_blank" href="https://github.com/Rathachai">GitHub</a> 
+		| <a target="_blank" href="https://www.linkedin.com/in/rathachai">LinkedIn</a>
+    </p>
+  </div>
+</footer>  
+</body>
+</html>
