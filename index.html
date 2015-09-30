@@ -614,7 +614,7 @@
 				var endpoint = $("#txtEndPoint").val();
 				$.ajax({
 				  //url: "./data/metadata.php?uri=" + uri + "&ep=" + endpoint
-				  url: "http://rathachai.github.io/d3rdf/data/metadata.json"
+				  url: "http://rathachai.github.io/rdf4u/data/metadata.json"
 				}).done(function(res) {
 					METADATA[uri] = res;
 				  	updateMetadataPanel(res);
@@ -746,7 +746,7 @@
 					      <div class="panel-body">
 						    <div class="form-group">
 						      	<label for="txtEndPoint">Enter a URL of JSON file</label>
-						      	<input type="text" class="form-control" id="txtQuri" value="http://rathachai.github.io/d3rdf/data/lodac_bubo.json">
+						      	<input type="text" class="form-control" id="txtQuri" value="http://rathachai.github.io/rdf4u/data/lodac_bubo.json">
 						    </div>
 						    <div class="form-group">
 						        <button class="btn btn-primary" onclick="queryGraph(false)" style="width:100%">Visualize ...</button>
