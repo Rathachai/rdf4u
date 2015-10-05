@@ -1,0 +1,1631 @@
+{
+    "Triples": [
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1951",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Country108544813",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/PopulatedPlace",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630039",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.61
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/AdministrativeArea",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q3455524",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Region",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/AdministrativeRegion",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/District108552138",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StatesOfGermany",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Place",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Location_Underspecified",
+            "vw": 0.61
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/NUTS1StatisticalRegionsOfTheEuropeanUnion",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicsAwards",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.3
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Symbol106806469",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Communication100033020",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/AwardPractice",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q618779",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Award",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Signal106791372",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Abstraction100002137",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Award106696483",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://www.w3.org/2002/07/owl#Thing",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/FormerCountriesInEurope",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/EconomiesOfFormerCountries",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Country108544813",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Economy108366753",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Group100031264",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q6256",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Abstraction100002137",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Place",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Country",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Country",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1867",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/District108552138",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Austria-Hungary",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/System108435388",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StochasticProcesses",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Abstraction100002137",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Content105809192",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Model105890249",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Concept105835747",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Structure105726345",
+            "vw": 0.3
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Idea105833840",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Hypothesis105888929",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Fractals",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Fractal105931152",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Form105930736",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Cognition100023271",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Brownian_motion",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StochasticProcess113561896",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:1879_births",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:1955_deaths",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:20th-century_American_writers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:20th-century_German_writers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Albert_Einstein",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_Zionists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_agnostics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.84
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_engineers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_pacifists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_philosophers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_physicists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_science_writers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:American_socialists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Charles_University_in_Prague_faculty",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Cosmologists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Deaths_from_abdominal_aortic_aneurysm",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:ETH_Zurich_alumni",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:ETH_Zurich_faculty",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Einstein_family",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Foreign_Members_of_the_Royal_Society",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:German_Jews_who_emigrated_to_the_United_States_to_escape_Nazism",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:German_Nobel_laureates",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:German_emigrants_to_Switzerland",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:German_physicists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:German_socialists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Institute_for_Advanced_Study_faculty",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Jewish_American_scientists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Jewish_agnostics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Jewish_engineers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Jewish_philosophers",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Jewish_physicists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Leiden_University_faculty",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Members_of_the_American_Philosophical_Society",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.89
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Members_of_the_Bavarian_Academy_of_Sciences",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Nobel_laureates_in_Physics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.84
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Pantheists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Patent_examiners",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_from_Berlin",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_from_Bern",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_from_Munich",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_from_Princeton,_New_Jersey",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_from_Ulm",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_from_Z%C3%BCrich",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_with_acquired_Austrian_citizenship",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:People_with_acquired_Swiss_citizenship",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Philosophers_of_science",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Relativists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Stateless_people",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Swiss_Jews",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Swiss_agnostics",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Swiss_emigrants_to_the_United_States",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Swiss_physicists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Theoretical_physicists",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Winners_of_the_Max_Planck_Medal",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Contradiction107206887",
+            "vw": 0.8
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Content105809192",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Falsehood106756407",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Event100029378",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalParadoxes",
+            "vw": 0.89
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Statement106722453",
+            "vw": 0.7
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Work100575741",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Cognition100023271",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Act100030358",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Experiment100639556",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Activity100407535",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/ThoughtExperimentsInQuantumMechanics",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/ScientificResearch100641820",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Paradox106724559",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Communication100033020",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Message106598915",
+            "vw": 0.7
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/FundamentalPhysicsConcepts",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Idea105833840",
+            "vw": 0.8
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Research100636921",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Investigation100633864",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Concept105835747",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Abstraction100002137",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/EPR_paradox",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://dbpedia.org/resource/General_relativity",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1871",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/FormerEmpires",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Country",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Domain108556491",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Place",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/District108552138",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Country",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Country",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q6256",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Location_Underspecified",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/PopulatedPlace",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Country108544813",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/resource/German_Empire",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Empire108557482",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/award",
+            "object": "http://dbpedia.org/resource/Nobel_Prize_in_Physics",
+            "vw": 0
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/citizenship",
+            "object": "http://dbpedia.org/resource/Austria-Hungary",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/citizenship",
+            "object": "http://dbpedia.org/resource/German_Empire",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/knownFor",
+            "object": "http://dbpedia.org/resource/EPR_paradox",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/knownFor",
+            "object": "http://dbpedia.org/resource/Brownian_motion",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/knownFor",
+            "object": "http://dbpedia.org/resource/General_relativity",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/birthPlace",
+            "object": "http://dbpedia.org/resource/German_Empire",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://dbpedia.org/ontology/birthPlace",
+            "object": "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_from_Bern",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_from_Berlin",
+            "vw": 0.07
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Jewish_physicists",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Jewish_philosophers",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_engineers",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:German_Nobel_laureates",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:German_Jews_who_emigrated_to_the_United_States_to_escape_Nazism",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Winners_of_the_Max_Planck_Medal",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Patent_examiners",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Members_of_the_Bavarian_Academy_of_Sciences",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_from_Z%C3%BCrich",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Deaths_from_abdominal_aortic_aneurysm",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Members_of_the_American_Philosophical_Society",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Jewish_engineers",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_physicists",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_philosophers",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Cosmologists",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Jewish_agnostics",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:20th-century_German_writers",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_with_acquired_Swiss_citizenship",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_with_acquired_Austrian_citizenship",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Philosophers_of_science",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Einstein_family",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Jewish_American_scientists",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:1955_deaths",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:German_socialists",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_from_Munich",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:ETH_Zurich_alumni",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:ETH_Zurich_faculty",
+            "vw": 0.16
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Institute_for_Advanced_Study_faculty",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:German_physicists",
+            "vw": 0.07
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_agnostics",
+            "vw": 0.11
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_socialists",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:20th-century_American_writers",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_from_Princeton,_New_Jersey",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Albert_Einstein",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Swiss_physicists",
+            "vw": 0.2
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_Zionists",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_science_writers",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Charles_University_in_Prague_faculty",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:German_emigrants_to_Switzerland",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Relativists",
+            "vw": 0.16
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Nobel_laureates_in_Physics",
+            "vw": 0.11
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Swiss_emigrants_to_the_United_States",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Stateless_people",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:People_from_Ulm",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Swiss_agnostics",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Swiss_Jews",
+            "vw": 0.2
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Pantheists",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:American_pacifists",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Theoretical_physicists",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Leiden_University_faculty",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:1879_births",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Albert_Einstein",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Foreign_Members_of_the_Royal_Society",
+            "vw": 0.07
+        }
+    ],
+    "Labels": {
+        "http://dbpedia.org/resource/Baden-W%C3%BCrttemberg": "Baden-Württemberg",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "type",
+        "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1951": "dbpedia:StatesAndTerritoriesEstablishedIn1951",
+        "http://dbpedia.org/class/yago/Object100002684": "dbpedia:Object100002684",
+        "http://dbpedia.org/class/yago/Country108544813": "dbpedia:Country108544813",
+        "http://umbel.org/umbel/rc/PopulatedPlace": "umbel:PopulatedPlace",
+        "http://dbpedia.org/class/yago/Region108630039": "dbpedia:Region108630039",
+        "http://dbpedia.org/class/yago/Region108630985": "dbpedia:Region108630985",
+        "http://www.wikidata.org/entity/Q486972": "Siedlung",
+        "http://schema.org/AdministrativeArea": "schema:AdministrativeArea",
+        "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity": "dbpedia:YagoPermanentlyLocatedEntity",
+        "http://dbpedia.org/class/yago/Location100027167": "dbpedia:Location100027167",
+        "http://www.wikidata.org/entity/Q3455524": "administrative region",
+        "http://dbpedia.org/ontology/Region": "Region",
+        "http://dbpedia.org/ontology/Place": "Ort",
+        "http://dbpedia.org/ontology/AdministrativeRegion": "Verwaltungsregion",
+        "http://dbpedia.org/class/yago/AdministrativeDistrict108491826": "dbpedia:AdministrativeDistrict108491826",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930": "dbpedia:PhysicalEntity100001930",
+        "http://dbpedia.org/class/yago/District108552138": "dbpedia:District108552138",
+        "http://dbpedia.org/ontology/Location": "dbpedia:Location",
+        "http://dbpedia.org/ontology/PopulatedPlace": "bebouwde omgeving",
+        "http://www.w3.org/2002/07/owl#Thing": "Thing",
+        "http://dbpedia.org/class/yago/StatesOfGermany": "dbpedia:StatesOfGermany",
+        "http://schema.org/Place": "schema:Place",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo": "dbpedia:YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/YagoGeoEntity": "dbpedia:YagoGeoEntity",
+        "http://umbel.org/umbel/rc/Location_Underspecified": "umbel:Location_Underspecified",
+        "http://dbpedia.org/class/yago/NUTS1StatisticalRegionsOfTheEuropeanUnion": "dbpedia:NUTS1StatisticalRegionsOfTheEuropeanUnion",
+        "http://dbpedia.org/resource/Nobel_Prize_in_Physics": "Nobel Prize in Physics",
+        "http://dbpedia.org/class/yago/PhysicsAwards": "dbpedia:PhysicsAwards",
+        "http://dbpedia.org/class/yago/Symbol106806469": "dbpedia:Symbol106806469",
+        "http://dbpedia.org/class/yago/Communication100033020": "dbpedia:Communication100033020",
+        "http://umbel.org/umbel/rc/AwardPractice": "umbel:AwardPractice",
+        "http://www.wikidata.org/entity/Q618779": "Auszeichnung",
+        "http://dbpedia.org/ontology/Award": "Auszeichnung",
+        "http://dbpedia.org/class/yago/Signal106791372": "dbpedia:Signal106791372",
+        "http://dbpedia.org/class/yago/Abstraction100002137": "dbpedia:Abstraction100002137",
+        "http://dbpedia.org/class/yago/Award106696483": "dbpedia:Award106696483",
+        "http://www.w3.org/2002/07/owl#Class": "w3:Class",
+        "http://dbpedia.org/resource/Austria-Hungary": "Austria-Hungary",
+        "http://dbpedia.org/class/yago/FormerCountriesInEurope": "dbpedia:FormerCountriesInEurope",
+        "http://dbpedia.org/class/yago/EconomiesOfFormerCountries": "dbpedia:EconomiesOfFormerCountries",
+        "http://dbpedia.org/class/yago/Economy108366753": "dbpedia:Economy108366753",
+        "http://dbpedia.org/class/yago/Group100031264": "dbpedia:Group100031264",
+        "http://www.wikidata.org/entity/Q6256": "Land",
+        "http://schema.org/Country": "schema:Country",
+        "http://dbpedia.org/ontology/Country": "Land",
+        "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1867": "dbpedia:StatesAndTerritoriesEstablishedIn1867",
+        "http://dbpedia.org/class/yago/System108435388": "dbpedia:System108435388",
+        "http://dbpedia.org/resource/Brownian_motion": "حركة براونية",
+        "http://dbpedia.org/class/yago/StochasticProcesses": "dbpedia:StochasticProcesses",
+        "http://dbpedia.org/class/yago/Content105809192": "dbpedia:Content105809192",
+        "http://dbpedia.org/class/yago/Model105890249": "dbpedia:Model105890249",
+        "http://dbpedia.org/class/yago/Concept105835747": "dbpedia:Concept105835747",
+        "http://dbpedia.org/class/yago/Structure105726345": "dbpedia:Structure105726345",
+        "http://dbpedia.org/class/yago/Idea105833840": "dbpedia:Idea105833840",
+        "http://dbpedia.org/class/yago/Hypothesis105888929": "dbpedia:Hypothesis105888929",
+        "http://dbpedia.org/class/yago/PsychologicalFeature100023100": "dbpedia:PsychologicalFeature100023100",
+        "http://dbpedia.org/class/yago/Fractals": "dbpedia:Fractals",
+        "http://dbpedia.org/class/yago/Fractal105931152": "dbpedia:Fractal105931152",
+        "http://dbpedia.org/class/yago/Form105930736": "dbpedia:Form105930736",
+        "http://dbpedia.org/class/yago/Cognition100023271": "dbpedia:Cognition100023271",
+        "http://dbpedia.org/class/yago/StochasticProcess113561896": "dbpedia:StochasticProcess113561896",
+        "http://dbpedia.org/resource/Category:1879_births": "1879 births",
+        "http://www.w3.org/2004/02/skos/core#Concept": "w3:Concept",
+        "http://dbpedia.org/resource/Category:1955_deaths": "1955 deaths",
+        "http://dbpedia.org/resource/Category:20th-century_American_writers": "20th-century American writers",
+        "http://dbpedia.org/resource/Category:20th-century_German_writers": "20th-century German writers",
+        "http://dbpedia.org/resource/Category:Albert_Einstein": "Albert Einstein",
+        "http://dbpedia.org/resource/Category:American_Zionists": "American Zionists",
+        "http://dbpedia.org/resource/Category:American_agnostics": "American agnostics",
+        "http://dbpedia.org/resource/Category:American_engineers": "American engineers",
+        "http://dbpedia.org/resource/Category:American_pacifists": "American pacifists",
+        "http://dbpedia.org/resource/Category:American_philosophers": "American philosophers",
+        "http://dbpedia.org/resource/Category:American_physicists": "American physicists",
+        "http://dbpedia.org/resource/Category:American_science_writers": "American science writers",
+        "http://dbpedia.org/resource/Category:American_socialists": "American socialists",
+        "http://dbpedia.org/resource/Category:Charles_University_in_Prague_faculty": "Charles University in Prague faculty",
+        "http://dbpedia.org/resource/Category:Cosmologists": "Cosmologists",
+        "http://dbpedia.org/resource/Category:Deaths_from_abdominal_aortic_aneurysm": "Deaths from abdominal aortic aneurysm",
+        "http://dbpedia.org/resource/Category:ETH_Zurich_alumni": "ETH Zurich alumni",
+        "http://dbpedia.org/resource/Category:ETH_Zurich_faculty": "ETH Zurich faculty",
+        "http://dbpedia.org/resource/Category:Einstein_family": "Einstein family",
+        "http://dbpedia.org/resource/Category:Foreign_Members_of_the_Royal_Society": "Foreign Members of the Royal Society",
+        "http://dbpedia.org/resource/Category:German_Jews_who_emigrated_to_the_United_States_to_escape_Nazism": "German Jews who emigrated to the United States to escape Nazism",
+        "http://dbpedia.org/resource/Category:German_Nobel_laureates": "German Nobel laureates",
+        "http://dbpedia.org/resource/Category:German_emigrants_to_Switzerland": "German emigrants to Switzerland",
+        "http://dbpedia.org/resource/Category:German_physicists": "German physicists",
+        "http://dbpedia.org/resource/Category:German_socialists": "German socialists",
+        "http://dbpedia.org/resource/Category:Institute_for_Advanced_Study_faculty": "Institute for Advanced Study faculty",
+        "http://dbpedia.org/resource/Category:Jewish_American_scientists": "Jewish American scientists",
+        "http://dbpedia.org/resource/Category:Jewish_agnostics": "Jewish agnostics",
+        "http://dbpedia.org/resource/Category:Jewish_engineers": "Jewish engineers",
+        "http://dbpedia.org/resource/Category:Jewish_philosophers": "Jewish philosophers",
+        "http://dbpedia.org/resource/Category:Jewish_physicists": "Jewish physicists",
+        "http://dbpedia.org/resource/Category:Leiden_University_faculty": "Leiden University faculty",
+        "http://dbpedia.org/resource/Category:Members_of_the_American_Philosophical_Society": "Members of the American Philosophical Society",
+        "http://dbpedia.org/resource/Category:Members_of_the_Bavarian_Academy_of_Sciences": "Members of the Bavarian Academy of Sciences",
+        "http://dbpedia.org/resource/Category:Nobel_laureates_in_Physics": "Nobel laureates in Physics",
+        "http://dbpedia.org/resource/Category:Pantheists": "Pantheists",
+        "http://dbpedia.org/resource/Category:Patent_examiners": "Patent examiners",
+        "http://dbpedia.org/resource/Category:People_from_Berlin": "People from Berlin",
+        "http://dbpedia.org/resource/Category:People_from_Bern": "People from Bern",
+        "http://dbpedia.org/resource/Category:People_from_Munich": "People from Munich",
+        "http://dbpedia.org/resource/Category:People_from_Princeton,_New_Jersey": "People from Princeton, New Jersey",
+        "http://dbpedia.org/resource/Category:People_from_Ulm": "People from Ulm",
+        "http://dbpedia.org/resource/Category:People_from_Z%C3%BCrich": "People from Zürich",
+        "http://dbpedia.org/resource/Category:People_with_acquired_Austrian_citizenship": "People with acquired Austrian citizenship",
+        "http://dbpedia.org/resource/Category:People_with_acquired_Swiss_citizenship": "People with acquired Swiss citizenship",
+        "http://dbpedia.org/resource/Category:Philosophers_of_science": "Philosophers of science",
+        "http://dbpedia.org/resource/Category:Relativists": "Relativists",
+        "http://dbpedia.org/resource/Category:Stateless_people": "Stateless people",
+        "http://dbpedia.org/resource/Category:Swiss_Jews": "Swiss Jews",
+        "http://dbpedia.org/resource/Category:Swiss_agnostics": "Swiss agnostics",
+        "http://dbpedia.org/resource/Category:Swiss_emigrants_to_the_United_States": "Swiss emigrants to the United States",
+        "http://dbpedia.org/resource/Category:Swiss_physicists": "Swiss physicists",
+        "http://dbpedia.org/resource/Category:Theoretical_physicists": "Theoretical physicists",
+        "http://dbpedia.org/resource/Category:Winners_of_the_Max_Planck_Medal": "Winners of the Max Planck Medal",
+        "http://dbpedia.org/resource/EPR_paradox": "مفارقة إي بي آر",
+        "http://dbpedia.org/class/yago/Contradiction107206887": "dbpedia:Contradiction107206887",
+        "http://dbpedia.org/class/yago/Falsehood106756407": "dbpedia:Falsehood106756407",
+        "http://dbpedia.org/class/yago/Event100029378": "dbpedia:Event100029378",
+        "http://dbpedia.org/class/yago/PhysicalParadoxes": "dbpedia:PhysicalParadoxes",
+        "http://dbpedia.org/class/yago/Statement106722453": "dbpedia:Statement106722453",
+        "http://dbpedia.org/class/yago/Work100575741": "dbpedia:Work100575741",
+        "http://dbpedia.org/class/yago/Act100030358": "dbpedia:Act100030358",
+        "http://dbpedia.org/class/yago/Experiment100639556": "dbpedia:Experiment100639556",
+        "http://dbpedia.org/class/yago/Activity100407535": "dbpedia:Activity100407535",
+        "http://dbpedia.org/class/yago/ThoughtExperimentsInQuantumMechanics": "dbpedia:ThoughtExperimentsInQuantumMechanics",
+        "http://dbpedia.org/class/yago/ScientificResearch100641820": "dbpedia:ScientificResearch100641820",
+        "http://dbpedia.org/class/yago/Paradox106724559": "dbpedia:Paradox106724559",
+        "http://dbpedia.org/class/yago/Message106598915": "dbpedia:Message106598915",
+        "http://dbpedia.org/class/yago/FundamentalPhysicsConcepts": "dbpedia:FundamentalPhysicsConcepts",
+        "http://dbpedia.org/class/yago/Research100636921": "dbpedia:Research100636921",
+        "http://dbpedia.org/class/yago/Investigation100633864": "dbpedia:Investigation100633864",
+        "http://dbpedia.org/resource/General_relativity": "General relativity",
+        "http://dbpedia.org/resource/German_Empire": "German Empire",
+        "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1871": "dbpedia:StatesAndTerritoriesEstablishedIn1871",
+        "http://dbpedia.org/class/yago/FormerEmpires": "dbpedia:FormerEmpires",
+        "http://umbel.org/umbel/rc/Country": "umbel:Country",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing": "w3:SpatialThing",
+        "http://dbpedia.org/class/yago/Domain108556491": "dbpedia:Domain108556491",
+        "http://dbpedia.org/class/yago/Empire108557482": "dbpedia:Empire108557482",
+        "http://dbpedia.org/resource/Albert_Einstein": "Albert Einstein",
+        "http://dbpedia.org/ontology/award": "Auszeichnung",
+        "http://dbpedia.org/ontology/citizenship": "Staatsangehörigkeit",
+        "http://dbpedia.org/ontology/knownFor": "bekannt für",
+        "http://dbpedia.org/ontology/birthPlace": "Geburtsort",
+        "http://purl.org/dc/terms/subject": "subject"
+    }
+}
