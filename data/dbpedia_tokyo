@@ -1,0 +1,900 @@
+{
+    "Triples": [
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/IslandsOfJapan",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Island109316454",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Island",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q23442",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Place",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Land109334396",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Honshu",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/District108552138",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PrefecturesOfJapan",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Subdivision108674251",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Prefecture108626947",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/SubdivisionsOfJapan",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/CountrySubdivisionsOfAsia",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/First-levelAdministrativeCountrySubdivisions",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Tract108673395",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://www.w3.org/2002/07/owl#Thing",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Capitals_in_Asia",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Kant%C5%8D_region",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Populated_coastal_places_in_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.16
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Populated_places_established_in_1457",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.2
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Port_settlements_in_Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q486972",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q2221906",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q486972",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/ontology#Item",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q486972",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q515",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q515",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/ontology#Item",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/City",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/PopulatedPlace",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Settlement",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2012.png?width=300",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Image",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2012.png",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Image",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/VascularPlant113083586",
+            "vw": 0.89
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Tree113104059",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/EukaryoticCell",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/GardenPlant113083306",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/EndangeredPlants",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Organism100004475",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/DioeciousPlants",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/BiologicalLivingObject",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PlantsUsedInBonsai",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Whole100003553",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/WoodyPlant113103136",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/OrnamentalTrees",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Ginkgo",
+            "vw": 1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Plant100017222",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/TreesOfChina",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/GardenPlantsOfAsia",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/LivingThing100004258",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/MedicinalPlants",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Plant",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/City",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q515",
+            "vw": 0.3
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Settlement",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Japan",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://xmlns.com/foaf/0.1/depiction",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2012.png",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/ontology/country",
+            "object": "http://dbpedia.org/resource/Japan",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/ontology/governmentType",
+            "object": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/ontology/isPartOf",
+            "object": "http://dbpedia.org/resource/Honshu",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/ontology/type",
+            "object": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/ontology/thumbnail",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2012.png?width=300",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Populated_coastal_places_in_Japan",
+            "vw": 0.07
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Tokyo",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Kant%C5%8D_region",
+            "vw": 0.11
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Populated_places_established_in_1457",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Capitals_in_Asia",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Port_settlements_in_Japan",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/property/blank1InfoSec",
+            "object": "http://dbpedia.org/resource/Ginkgo_biloba",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/property/governmentType",
+            "object": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/property/settlementType",
+            "object": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Tokyo",
+            "predicate": "http://dbpedia.org/property/subdivisionName",
+            "object": "http://dbpedia.org/resource/Honshu",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/MemberStatesOfTheUnitedNations",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.7
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Empires",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Empire108557482",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Group100031264",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Domain108556491",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Country108544813",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/CountriesBorderingThePacificOcean",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/CountriesBorderingThePhilippineSea",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/District108552138",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Location_Underspecified",
+            "vw": 0.61
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/EastAsianCountries",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Country",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Country",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Economy108366753",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Abstraction100002137",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/System108435388",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/PopulatedPlace",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.8
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Place",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q6256",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn660BC",
+            "vw": 0.84
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/IslandCountries",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Japan",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Country",
+            "vw": 0.65
+        }
+    ],
+    "Labels": {
+        "http://dbpedia.org/resource/Honshu": "Honshu",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "type",
+        "http://dbpedia.org/class/yago/IslandsOfJapan": "dbpedia:IslandsOfJapan",
+        "http://dbpedia.org/class/yago/Island109316454": "dbpedia:Island109316454",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930": "dbpedia:PhysicalEntity100001930",
+        "http://dbpedia.org/ontology/Place": "Ort",
+        "http://dbpedia.org/ontology/Island": "Insel",
+        "http://dbpedia.org/ontology/Location": "dbpedia:Location",
+        "http://www.wikidata.org/entity/Q23442": "Insel",
+        "http://schema.org/Place": "schema:Place",
+        "http://dbpedia.org/ontology/PopulatedPlace": "bebouwde omgeving",
+        "http://dbpedia.org/class/yago/Land109334396": "dbpedia:Land109334396",
+        "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity": "dbpedia:YagoPermanentlyLocatedEntity",
+        "http://dbpedia.org/class/yago/Object100002684": "dbpedia:Object100002684",
+        "http://www.wikidata.org/entity/Q486972": "Siedlung",
+        "http://www.w3.org/2002/07/owl#Thing": "Thing",
+        "http://dbpedia.org/class/yago/YagoGeoEntity": "dbpedia:YagoGeoEntity",
+        "http://dbpedia.org/resource/Prefectures_of_Japan": "Prefectures of Japan",
+        "http://dbpedia.org/class/yago/District108552138": "dbpedia:District108552138",
+        "http://dbpedia.org/class/yago/PrefecturesOfJapan": "dbpedia:PrefecturesOfJapan",
+        "http://dbpedia.org/class/yago/GeographicalArea108574314": "dbpedia:GeographicalArea108574314",
+        "http://dbpedia.org/class/yago/Subdivision108674251": "dbpedia:Subdivision108674251",
+        "http://dbpedia.org/class/yago/AdministrativeDistrict108491826": "dbpedia:AdministrativeDistrict108491826",
+        "http://dbpedia.org/class/yago/Prefecture108626947": "dbpedia:Prefecture108626947",
+        "http://dbpedia.org/class/yago/SubdivisionsOfJapan": "dbpedia:SubdivisionsOfJapan",
+        "http://dbpedia.org/class/yago/Region108630985": "dbpedia:Region108630985",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo": "dbpedia:YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/CountrySubdivisionsOfAsia": "dbpedia:CountrySubdivisionsOfAsia",
+        "http://dbpedia.org/class/yago/First-levelAdministrativeCountrySubdivisions": "dbpedia:First-levelAdministrativeCountrySubdivisions",
+        "http://dbpedia.org/class/yago/Tract108673395": "dbpedia:Tract108673395",
+        "http://dbpedia.org/class/yago/Location100027167": "dbpedia:Location100027167",
+        "http://www.w3.org/2002/07/owl#Class": "w3:Class",
+        "http://dbpedia.org/resource/Category:Capitals_in_Asia": "Capitals in Asia",
+        "http://www.w3.org/2004/02/skos/core#Concept": "w3:Concept",
+        "http://dbpedia.org/resource/Category:Kant%C5%8D_region": "Kantō region",
+        "http://dbpedia.org/resource/Category:Populated_coastal_places_in_Japan": "Populated coastal places in Japan",
+        "http://dbpedia.org/resource/Category:Populated_places_established_in_1457": "Populated places established in 1457",
+        "http://dbpedia.org/resource/Category:Port_settlements_in_Japan": "Port settlements in Japan",
+        "http://dbpedia.org/resource/Category:Tokyo": "Tokyo",
+        "http://www.wikidata.org/entity/Q2221906": "Standort",
+        "http://www.wikidata.org/ontology#Item": "wikidata:Item",
+        "http://www.wikidata.org/entity/Q515": "Stadt",
+        "http://dbpedia.org/ontology/City": "Stadt",
+        "http://dbpedia.org/ontology/Settlement": "Siedlung",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2012.png?width=300": "wikimedia:Tokyo_Montage_2012.png?width=300",
+        "http://dbpedia.org/ontology/Image": "Bild",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Montage_2012.png": "wikimedia:Tokyo_Montage_2012.png",
+        "http://dbpedia.org/resource/Ginkgo_biloba": "Ginkgo biloba",
+        "http://dbpedia.org/class/yago/VascularPlant113083586": "dbpedia:VascularPlant113083586",
+        "http://dbpedia.org/class/yago/Tree113104059": "dbpedia:Tree113104059",
+        "http://umbel.org/umbel/rc/EukaryoticCell": "umbel:EukaryoticCell",
+        "http://dbpedia.org/class/yago/GardenPlant113083306": "dbpedia:GardenPlant113083306",
+        "http://dbpedia.org/class/yago/EndangeredPlants": "dbpedia:EndangeredPlants",
+        "http://dbpedia.org/class/yago/Organism100004475": "dbpedia:Organism100004475",
+        "http://dbpedia.org/class/yago/DioeciousPlants": "dbpedia:DioeciousPlants",
+        "http://umbel.org/umbel/rc/BiologicalLivingObject": "umbel:BiologicalLivingObject",
+        "http://dbpedia.org/class/yago/PlantsUsedInBonsai": "dbpedia:PlantsUsedInBonsai",
+        "http://dbpedia.org/class/yago/Whole100003553": "dbpedia:Whole100003553",
+        "http://dbpedia.org/class/yago/WoodyPlant113103136": "dbpedia:WoodyPlant113103136",
+        "http://dbpedia.org/class/yago/OrnamentalTrees": "dbpedia:OrnamentalTrees",
+        "http://umbel.org/umbel/rc/Ginkgo": "umbel:Ginkgo",
+        "http://dbpedia.org/class/yago/Plant100017222": "dbpedia:Plant100017222",
+        "http://dbpedia.org/class/yago/TreesOfChina": "dbpedia:TreesOfChina",
+        "http://dbpedia.org/class/yago/GardenPlantsOfAsia": "dbpedia:GardenPlantsOfAsia",
+        "http://dbpedia.org/class/yago/LivingThing100004258": "dbpedia:LivingThing100004258",
+        "http://dbpedia.org/class/yago/MedicinalPlants": "dbpedia:MedicinalPlants",
+        "http://umbel.org/umbel/rc/Plant": "umbel:Plant",
+        "http://dbpedia.org/resource/Tokyo": "Tokyo",
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": "seeAlso",
+        "http://dbpedia.org/resource/Japan": "Japan",
+        "http://xmlns.com/foaf/0.1/depiction": "depiction",
+        "http://dbpedia.org/ontology/country": "Land",
+        "http://dbpedia.org/ontology/governmentType": "Staatsform",
+        "http://dbpedia.org/ontology/isPartOf": "es parte de",
+        "http://dbpedia.org/ontology/type": "Typ",
+        "http://dbpedia.org/ontology/thumbnail": "thumbnail",
+        "http://purl.org/dc/terms/subject": "subject",
+        "http://dbpedia.org/property/blank1InfoSec": "blank1 info sec",
+        "http://dbpedia.org/property/governmentType": "government type",
+        "http://dbpedia.org/property/settlementType": "settlement type",
+        "http://dbpedia.org/property/subdivisionName": "subdivision name",
+        "http://dbpedia.org/class/yago/MemberStatesOfTheUnitedNations": "dbpedia:MemberStatesOfTheUnitedNations",
+        "http://dbpedia.org/class/yago/Empires": "dbpedia:Empires",
+        "http://dbpedia.org/class/yago/Empire108557482": "dbpedia:Empire108557482",
+        "http://dbpedia.org/class/yago/Group100031264": "dbpedia:Group100031264",
+        "http://dbpedia.org/class/yago/Domain108556491": "dbpedia:Domain108556491",
+        "http://dbpedia.org/class/yago/Country108544813": "dbpedia:Country108544813",
+        "http://dbpedia.org/class/yago/CountriesBorderingThePacificOcean": "dbpedia:CountriesBorderingThePacificOcean",
+        "http://dbpedia.org/class/yago/CountriesBorderingThePhilippineSea": "dbpedia:CountriesBorderingThePhilippineSea",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing": "w3:SpatialThing",
+        "http://umbel.org/umbel/rc/Location_Underspecified": "umbel:Location_Underspecified",
+        "http://dbpedia.org/class/yago/EastAsianCountries": "dbpedia:EastAsianCountries",
+        "http://dbpedia.org/ontology/Country": "Land",
+        "http://umbel.org/umbel/rc/Country": "umbel:Country",
+        "http://dbpedia.org/class/yago/Economy108366753": "dbpedia:Economy108366753",
+        "http://dbpedia.org/class/yago/Abstraction100002137": "dbpedia:Abstraction100002137",
+        "http://dbpedia.org/class/yago/System108435388": "dbpedia:System108435388",
+        "http://umbel.org/umbel/rc/PopulatedPlace": "umbel:PopulatedPlace",
+        "http://www.wikidata.org/entity/Q6256": "Land",
+        "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn660BC": "dbpedia:StatesAndTerritoriesEstablishedIn660BC",
+        "http://dbpedia.org/class/yago/IslandCountries": "dbpedia:IslandCountries",
+        "http://schema.org/Country": "schema:Country"
+    }
+}
