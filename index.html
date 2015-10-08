@@ -132,6 +132,7 @@
 		var isToIgnoreWeb = true;
 		var isToIgnoreMetaOnto = true;
 		var isToIgnoreTransitive = true;
+		var isToIgnoreTypeHierarchy = true;
 		var isToIgnoreMetaProperty = true;
 
 		var METADATA =[];
@@ -180,6 +181,36 @@
 				if(pred==triple.predicate){
 					if(subj == triple.subject) sMid.push(triple.object);
 					if(obj  == triple.object ) oMid.push(triple.subject);
+				}
+			});
+
+			if(sMid.length>0 && oMid.length>0){
+				oMid.filter(function(n){
+					if (sMid.indexOf(n)>-1){
+						res = true;
+						return res;
+					}
+				});
+			}
+			
+			return res;
+
+		}
+		
+		function checkIsTypeHierarchy(subj,obj){
+			var res = false;
+
+			var sMid = [];
+			var oMid = [];
+			triples.forEach(function(triple){
+				if(triple.subject != triple.object){
+					if(triple.predicate=="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"){
+						if(subj == triple.subject) sMid.push(triple.object);
+
+					}else if(triple.predicate == "http://www.w3.org/2000/01/rdf-schema#subClassOf"){
+						if(obj  == triple.object ) oMid.push(triple.subject);
+
+					}
 				}
 			});
 
@@ -253,6 +284,13 @@
 					// Remove transitive
 					if(isToIgnoreTransitive){
 						if(checkIsTransitive(subjId, predId, objId)){
+							return;
+						}
+					}
+					
+					// Remove type + subclassof
+					if(isToIgnoreTypeHierarchy && predId=="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"){
+						if(checkIsTypeHierarchy(subjId, objId)){
 							return;
 						}
 					}
@@ -512,6 +550,11 @@
 
 		function toIgnoreTransitive(elem){
 			isToIgnoreTransitive = $(elem).is(":checked");
+			filterUpdate(vw1, vw2);
+		}
+		
+		function toIgnoreTypeHierarchy(elem){
+			isToIgnoreTypeHierarchy = $(elem).is(":checked");
 			filterUpdate(vw1, vw2);
 		}
 
@@ -857,6 +900,10 @@
 	
 							<div class="checkbox">
 							  <label ><input id="chkToIgnoreTransitive" type="checkbox" onclick="toIgnoreTransitive(this);" checked />Remove transitive links</label>
+							</div>
+							
+							<div class="checkbox">
+							  <label ><input id="chkToIgnoreTypeHierarchy" type="checkbox" onclick="toIgnoreTypeHierarchy(this);" checked />Remove inferred type hierarchies</label>
 							</div>
 						  </div>
 					      <div class="panel-body">
