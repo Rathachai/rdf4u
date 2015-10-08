@@ -1,0 +1,1825 @@
+{
+    "Triples": [
+        {
+            "subject": "http://www.w3.org/2002/07/owl#Thing",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.org/entity/Q8715726",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.dbpedia.org/resource/Q8715726",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ja.dbpedia.org/resource/Category:大阪市の公園",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ko.dbpedia.org/resource/분류:오사카_시의_공원",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Geography_of_Osaka",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Visitor_attractions_in_Osaka",
+            "vw": 0.07
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Parks_by_city_in_Japan",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka_Prefecture",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://en.wikipedia.org/wiki/Category:Parks_and_gardens_in_Osaka?oldid=616724470",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://schema.org/Place",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+            "object": "http://dbpedia.org/ontology/",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/2007/05/powder-s#describedby",
+            "object": "http://dbpedia.org/ontology/data/definitions.ttl",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Place",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://mappings.dbpedia.org/index.php/OntologyClass:Place",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Park",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://schema.org/Park",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Park",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.61
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Park",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+            "object": "http://dbpedia.org/ontology/",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Park",
+            "predicate": "http://www.w3.org/2007/05/powder-s#describedby",
+            "object": "http://dbpedia.org/ontology/data/definitions.ttl",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Park",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://mappings.dbpedia.org/index.php/OntologyClass:Park",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://de.dbpedia.org/resource/Kategorie:Bauwerk_in_Ōsaka",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://it.dbpedia.org/resource/Categoria:Architetture_di_Osaka",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.org/entity/Q8323502",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://pt.dbpedia.org/resource/Categoria:Construções_de_Osaka",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ko.dbpedia.org/resource/분류:오사카_시의_건축물",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://eu.dbpedia.org/resource/Kategoria:Osakako_eraikinak",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ja.dbpedia.org/resource/Category:大阪市の建築物",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://nl.dbpedia.org/resource/Categorie:Bouwwerk_in_Osaka",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.dbpedia.org/resource/Q8323502",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Osaka",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Japan_by_city",
+            "vw": 0.11
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/2004/02/skos/core#broader",
+            "object": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka_Prefecture",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://en.wikipedia.org/wiki/Category:Buildings_and_structures_in_Osaka?oldid=547223894",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg?width=300",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Image",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg?width=300",
+            "predicate": "http://purl.org/dc/elements/1.1/rights",
+            "object": "http://en.wikipedia.org/wiki/File:Osaka_Castle_01bs3200.jpg",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Image",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg",
+            "predicate": "http://purl.org/dc/elements/1.1/rights",
+            "object": "http://en.wikipedia.org/wiki/File:Osaka_Castle_01bs3200.jpg",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg",
+            "predicate": "http://xmlns.com/foaf/0.1/thumbnail",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg?width=300",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/City",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PopulatedCoastalPlacesInJapan",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Place",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/PopulatedPlace",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/District108552138",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Location",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/City",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Tract108673395",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/City108524735",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/City",
+            "vw": 0.89
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/PopulatedPlace",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Location_Underspecified",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/UrbanArea108675967",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/CitiesInOsakaPrefecture",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Municipality108626283",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Settlement",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q486972",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q515",
+            "vw": 0.89
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PortSettlementsInJapan",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Site108651247",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://umbel.org/umbel/rc/Village",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://pt.dbpedia.org/resource/Osaka_(cidade)",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://sws.geonames.org/1853907/",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ko.dbpedia.org/resource/오사카_시",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://yago-knowledge.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://cs.dbpedia.org/resource/Ósaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://linkedgeodata.org/triplify/node57563779",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://fr.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://id.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.dbpedia.org/resource/Q35765",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://rdf.freebase.com/ns/m.0dqyw",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://sw.cyc.com/concept/Mx4rvdnzt5wpEbGdrcN5Y29ycA",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://nl.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://it.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://es.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://de.dbpedia.org/resource/Ōsaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://el.dbpedia.org/resource/Οσάκα",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://sws.geonames.org/1853909/",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.org/entity/Q35765",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://eu.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://gadm.geovocab.org/id/1_1489",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ja.dbpedia.org/resource/大阪市",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://pl.dbpedia.org/resource/Osaka",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Local_Autonomy_Law",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Twin_towns_and_sister_cities",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Japan",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Kamigata",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Lists_of_twin_towns_and_sister_cities",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "object": "http://dbpedia.org/resource/Kansai_dialect",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://xmlns.com/foaf/0.1/homepage",
+            "object": "http://www.city.osaka.lg.jp",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://xmlns.com/foaf/0.1/depiction",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_montage.jpg",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://en.wikipedia.org/wiki/Osaka?oldid=645096959",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/country",
+            "object": "http://dbpedia.org/resource/Japan",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/isPartOf",
+            "object": "http://dbpedia.org/resource/Osaka_Prefecture",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/isPartOf",
+            "object": "http://dbpedia.org/resource/Kansai_region",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/leaderName",
+            "object": "http://dbpedia.org/resource/Tōru_Hashimoto",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/timeZone",
+            "object": "http://dbpedia.org/resource/Japan_Standard_Time",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/type",
+            "object": "http://dbpedia.org/resource/Cities_designated_by_government_ordinance_of_Japan",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+            "object": "http://en.wikipedia.org/wiki/Osaka",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/thumbnail",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_montage.jpg?width=300",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Port_settlements_in_Japan",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Populated_coastal_places_in_Japan",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Osaka",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Cities_in_Osaka_Prefecture",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.pref.osaka.jp/en/",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.city.osaka.lg.jp",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.gojapango.com/travel/osaka.htm",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.osaka-info.jp/en/",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.osaka-info.jp/osakabob/new/",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.city.osaka.lg.jp/contents/wdu020/english/",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.city.osaka.lg.jp/contents/wdu020/shikai/english/",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.questia.com/read/34221399?title=Visions%20of%20Virtue%20in%20Tokugawa%20Japan%3a%20The%20Kaitokudo%20Merchant%20Academy%20of%20Osaka",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.questia.com/read/105859766?title=The%20City%20as%20Subject%3a%20%20Seki%20Hajime%20and%20the%20Reinvention%20of%20Modern%20Osaka",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.questia.com/read/103760551?title=Osaka%2c%20the%20Merchant's%20Capital%20of%20Early%20Modern%20Japan",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/blank1InfoSec",
+            "object": "http://dbpedia.org/resource/Cherry_blossom",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/blank2InfoSec",
+            "object": "http://dbpedia.org/resource/Pansy",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/data",
+            "object": "http://dbpedia.org/resource/Liberal_Democratic_Party_(Japan)",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/data",
+            "object": "http://dbpedia.org/resource/T%C5%8Dru_Hashimoto",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/data",
+            "object": "http://www.city.osaka.lg.jp/contents/wdu020/shikai/english/",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/leaderName",
+            "object": "http://dbpedia.org/resource/T%C5%8Dru_Hashimoto",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/settlementType",
+            "object": "http://dbpedia.org/resource/Cities_designated_by_government_ordinance_of_Japan",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/source",
+            "object": "http://dbpedia.org/resource/World_Meteorological_Organization",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/subdivisionName",
+            "object": "http://dbpedia.org/resource/Osaka_Prefecture",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/subdivisionName",
+            "object": "http://dbpedia.org/resource/Japan",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/subdivisionName",
+            "object": "http://dbpedia.org/resource/Kansai_region",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/subdivisionType",
+            "object": "http://dbpedia.org/resource/List_of_sovereign_states",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/subdivisionType",
+            "object": "http://dbpedia.org/resource/Prefectures_of_Japan",
+            "vw": 0.3
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/subdivisionType",
+            "object": "http://dbpedia.org/resource/List_of_regions_of_Japan",
+            "vw": 0.3
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/timezone",
+            "object": "http://dbpedia.org/resource/Japan_Standard_Time",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/website",
+            "object": "http://www.city.osaka.lg.jp",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka",
+            "predicate": "http://dbpedia.org/property/hasPhotoCollection",
+            "object": "http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Osaka",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Organism100004475",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/CausalAgent100007347",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/WardsOfOsaka",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Person100007846",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/LivingThing100004258",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Whole100003553",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Ward110767020",
+            "vw": 0.7
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActor",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://rdf.freebase.com/ns/m.024bsw",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://sws.geonames.org/7391689/",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://yago-knowledge.org/resource/Chūō-ku,_Osaka",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://xmlns.com/foaf/0.1/homepage",
+            "object": "http://www.city.osaka.lg.jp/contents/wdu020/chuo/english/",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://xmlns.com/foaf/0.1/depiction",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Chuo-ku_in_Osaka_City.svg",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://en.wikipedia.org/wiki/Chūō-ku,_Osaka?oldid=642118064",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+            "object": "http://en.wikipedia.org/wiki/Chūō-ku,_Osaka",
+            "vw": 0.07
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://dbpedia.org/ontology/thumbnail",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Chuo-ku_in_Osaka_City.svg?width=300",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Wards_of_Osaka",
+            "vw": 0.2
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Financial_districts",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.city.osaka.lg.jp/chuo/",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.city.osaka.lg.jp/contents/wdu020/chuo/english/",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "predicate": "http://dbpedia.org/property/hasPhotoCollection",
+            "object": "http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Chūō-ku,_Osaka",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/UrbanPublicParks",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.8
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Park108615149",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.8
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Tract108673395",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://fr.dbpedia.org/resource/Jardin_public",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.org/entity/Q22746",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://pt.dbpedia.org/resource/Área_verde_urbana",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://yago-knowledge.org/resource/Urban_park",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://nl.dbpedia.org/resource/Stadspark",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://de.dbpedia.org/resource/Volksgarten",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://it.dbpedia.org/resource/Parco_cittadino",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://rdf.freebase.com/ns/m.07q_s3",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://pl.dbpedia.org/resource/Park_miejski",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://es.dbpedia.org/resource/Parque_urbano",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.dbpedia.org/resource/Q22746",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://xmlns.com/foaf/0.1/depiction",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Central_Park_from_Rock.jpg",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "object": "http://en.wikipedia.org/wiki/Urban_park?oldid=641932855",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+            "object": "http://en.wikipedia.org/wiki/Urban_park",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/ontology/thumbnail",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Central_Park_from_Rock.jpg?width=300",
+            "vw": 0.11
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Urban_public_parks",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.pps.org/",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.mupgsf.btik.com",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.english-heritage.org.uk/publications/the-park-keeper/the-park-keeper.pdf",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/ontology/wikiPageExternalLink",
+            "object": "http://www.gardenvisit.com/landscape/architecture/16.1-park-character.htm",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/property/caption",
+            "object": "http://dbpedia.org/resource/Jay_Pritzker_Pavilion",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/property/caption",
+            "object": "http://dbpedia.org/resource/Boeing_Galleries",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Urban_park",
+            "predicate": "http://dbpedia.org/property/hasPhotoCollection",
+            "object": "http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Urban_park",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Place",
+            "vw": 0.84
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.7
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Tract108673395",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/ParksAndGardensInOsaka",
+            "vw": 0.84
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Park108615149",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Park",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://xmlns.com/foaf/0.1/depiction",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg",
+            "vw": 0.16
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/ontology/location",
+            "object": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/ontology/location",
+            "object": "http://dbpedia.org/resource/Osaka",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/ontology/type",
+            "object": "http://dbpedia.org/resource/Urban_park",
+            "vw": 0.2
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+            "object": "http://en.wikipedia.org/wiki/Osaka_Castle_Park",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/ontology/thumbnail",
+            "object": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg?width=300",
+            "vw": 0.16
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/property/location",
+            "object": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/property/location",
+            "object": "http://dbpedia.org/resource/Osaka",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Osaka_Castle_Park",
+            "predicate": "http://dbpedia.org/property/type",
+            "object": "http://dbpedia.org/resource/Urban_park",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://pl.dbpedia.org/resource/Chūō_(Osaka)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://it.dbpedia.org/resource/Chūō-ku_(Osaka)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.org/entity/Q876485",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://eu.dbpedia.org/resource/Chūō-ku_(Osaka)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://wikidata.dbpedia.org/resource/Q876485",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://es.dbpedia.org/resource/Chūō-ku_(Osaka)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ja.dbpedia.org/resource/中央区_(大阪市)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://fr.dbpedia.org/resource/Chūō-ku_(Osaka)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Chūō-ku,_Osaka",
+            "predicate": "http://www.w3.org/2002/07/owl#sameAs",
+            "object": "http://ko.dbpedia.org/resource/주오_구_(오사카_시)",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://en.wikipedia.org/wiki/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/ontology#Article",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://en.wikipedia.org/wiki/Osaka_Castle_Park",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://xmlns.com/foaf/0.1/Document",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://en.wikipedia.org/wiki/Osaka_Castle_Park",
+            "predicate": "http://schema.org/about",
+            "object": "http://www.wikidata.org/entity/Q150118",
+            "vw": 0
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Location100027167",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_location_100027167",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Location100027167",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Location100027167",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Location100027167",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Object100002684",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_object_100002684",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Object100002684",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Park108615149",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_park_108615149",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Park108615149",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/Tract108673395",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Region108630985",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_region_108630985",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Region108630985",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/Location100027167",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Tract108673395",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_tract_108673395",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/Tract108673395",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/yagoGeoEntity",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/YagoGeoEntity",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/yagoLegalActorGeo",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_geographical_area_108574314",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/GeographicalArea108574314",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/Region108630985",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wordnet_physical_entity_100001930",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/yagoPermanentlyLocatedEntity",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/ParksAndGardensInOsaka",
+            "predicate": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "object": "http://yago-knowledge.org/resource/wikicategory_Parks_and_gardens_in_Osaka",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://dbpedia.org/class/yago/ParksAndGardensInOsaka",
+            "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "object": "http://dbpedia.org/class/yago/Park108615149",
+            "vw": 0.61
+        }
+    ],
+    "Labels": {
+        "http://www.w3.org/2002/07/owl#Thing": "Thing",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "type",
+        "http://www.w3.org/2002/07/owl#Class": "w3:Class",
+        "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka": "Parks and gardens in Osaka",
+        "http://www.w3.org/2004/02/skos/core#Concept": "w3:Concept",
+        "http://www.w3.org/2002/07/owl#sameAs": "sameAs",
+        "http://wikidata.org/entity/Q8715726": "wikidata:Q8715726",
+        "http://wikidata.dbpedia.org/resource/Q8715726": "dbpedia:Q8715726",
+        "http://ja.dbpedia.org/resource/Category:大阪市の公園": "dbpedia:Category:大阪市の公園",
+        "http://ko.dbpedia.org/resource/분류:오사카_시의_공원": "dbpedia:분류:오사카_시의_공원",
+        "http://www.w3.org/2004/02/skos/core#broader": "broader",
+        "http://dbpedia.org/resource/Category:Geography_of_Osaka": "Geography of Osaka",
+        "http://dbpedia.org/resource/Category:Visitor_attractions_in_Osaka": "Visitor attractions in Osaka",
+        "http://dbpedia.org/resource/Category:Parks_by_city_in_Japan": "Parks by city in Japan",
+        "http://dbpedia.org/resource/Category:Parks_and_gardens_in_Osaka_Prefecture": "Parks and gardens in Osaka Prefecture",
+        "http://www.w3.org/ns/prov#wasDerivedFrom": "wasDerivedFrom",
+        "http://en.wikipedia.org/wiki/Category:Parks_and_gardens_in_Osaka?oldid=616724470": "wikipedia:Category:Parks_and_gardens_in_Osaka?oldid=616724470",
+        "http://dbpedia.org/ontology/Place": "Ort",
+        "http://www.w3.org/2002/07/owl#equivalentClass": "equivalentClass",
+        "http://dbpedia.org/ontology/Location": "dbpedia:Location",
+        "http://schema.org/Place": "schema:Place",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": "subClassOf",
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": "isDefinedBy",
+        "http://dbpedia.org/ontology/": "dbpedia:",
+        "http://www.w3.org/2007/05/powder-s#describedby": "describedby",
+        "http://dbpedia.org/ontology/data/definitions.ttl": "dbpedia:definitions.ttl",
+        "http://mappings.dbpedia.org/index.php/OntologyClass:Place": "dbpedia:OntologyClass:Place",
+        "http://dbpedia.org/ontology/Park": "Park",
+        "http://schema.org/Park": "schema:Park",
+        "http://mappings.dbpedia.org/index.php/OntologyClass:Park": "dbpedia:OntologyClass:Park",
+        "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka": "Buildings and structures in Osaka",
+        "http://de.dbpedia.org/resource/Kategorie:Bauwerk_in_Ōsaka": "dbpedia:Kategorie:Bauwerk_in_Ōsaka",
+        "http://it.dbpedia.org/resource/Categoria:Architetture_di_Osaka": "dbpedia:Categoria:Architetture_di_Osaka",
+        "http://wikidata.org/entity/Q8323502": "wikidata:Q8323502",
+        "http://pt.dbpedia.org/resource/Categoria:Construções_de_Osaka": "dbpedia:Categoria:Construções_de_Osaka",
+        "http://ko.dbpedia.org/resource/분류:오사카_시의_건축물": "dbpedia:분류:오사카_시의_건축물",
+        "http://eu.dbpedia.org/resource/Kategoria:Osakako_eraikinak": "dbpedia:Kategoria:Osakako_eraikinak",
+        "http://ja.dbpedia.org/resource/Category:大阪市の建築物": "dbpedia:Category:大阪市の建築物",
+        "http://nl.dbpedia.org/resource/Categorie:Bouwwerk_in_Osaka": "dbpedia:Categorie:Bouwwerk_in_Osaka",
+        "http://wikidata.dbpedia.org/resource/Q8323502": "dbpedia:Q8323502",
+        "http://dbpedia.org/resource/Category:Osaka": "Osaka",
+        "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Japan_by_city": "Buildings and structures in Japan by city",
+        "http://dbpedia.org/resource/Category:Buildings_and_structures_in_Osaka_Prefecture": "Buildings and structures in Osaka Prefecture",
+        "http://en.wikipedia.org/wiki/Category:Buildings_and_structures_in_Osaka?oldid=547223894": "wikipedia:Category:Buildings_and_structures_in_Osaka?oldid=547223894",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg?width=300": "wikimedia:Osaka_Castle_01bs3200.jpg?width=300",
+        "http://dbpedia.org/ontology/Image": "Bild",
+        "http://purl.org/dc/elements/1.1/rights": "rights",
+        "http://en.wikipedia.org/wiki/File:Osaka_Castle_01bs3200.jpg": "wikipedia:File:Osaka_Castle_01bs3200.jpg",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_Castle_01bs3200.jpg": "wikimedia:Osaka_Castle_01bs3200.jpg",
+        "http://xmlns.com/foaf/0.1/thumbnail": "thumbnail",
+        "http://dbpedia.org/resource/Osaka": "Osaka",
+        "http://dbpedia.org/class/yago/Location100027167": "dbpedia:Location100027167",
+        "http://schema.org/City": "schema:City",
+        "http://dbpedia.org/class/yago/PopulatedCoastalPlacesInJapan": "dbpedia:PopulatedCoastalPlacesInJapan",
+        "http://dbpedia.org/ontology/PopulatedPlace": "bebouwde omgeving",
+        "http://dbpedia.org/class/yago/District108552138": "dbpedia:District108552138",
+        "http://dbpedia.org/class/yago/Region108630985": "dbpedia:Region108630985",
+        "http://umbel.org/umbel/rc/City": "umbel:City",
+        "http://dbpedia.org/class/yago/GeographicalArea108574314": "dbpedia:GeographicalArea108574314",
+        "http://dbpedia.org/class/yago/Tract108673395": "dbpedia:Tract108673395",
+        "http://dbpedia.org/class/yago/City108524735": "dbpedia:City108524735",
+        "http://dbpedia.org/ontology/City": "Stadt",
+        "http://umbel.org/umbel/rc/PopulatedPlace": "umbel:PopulatedPlace",
+        "http://umbel.org/umbel/rc/Location_Underspecified": "umbel:Location_Underspecified",
+        "http://dbpedia.org/class/yago/UrbanArea108675967": "dbpedia:UrbanArea108675967",
+        "http://dbpedia.org/class/yago/CitiesInOsakaPrefecture": "dbpedia:CitiesInOsakaPrefecture",
+        "http://dbpedia.org/class/yago/Municipality108626283": "dbpedia:Municipality108626283",
+        "http://dbpedia.org/ontology/Settlement": "Siedlung",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing": "w3:SpatialThing",
+        "http://www.wikidata.org/entity/Q486972": "Siedlung",
+        "http://dbpedia.org/class/yago/YagoGeoEntity": "dbpedia:YagoGeoEntity",
+        "http://dbpedia.org/class/yago/AdministrativeDistrict108491826": "dbpedia:AdministrativeDistrict108491826",
+        "http://www.wikidata.org/entity/Q515": "Stadt",
+        "http://dbpedia.org/class/yago/PortSettlementsInJapan": "dbpedia:PortSettlementsInJapan",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo": "dbpedia:YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930": "dbpedia:PhysicalEntity100001930",
+        "http://dbpedia.org/class/yago/Object100002684": "dbpedia:Object100002684",
+        "http://dbpedia.org/class/yago/Site108651247": "dbpedia:Site108651247",
+        "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity": "dbpedia:YagoPermanentlyLocatedEntity",
+        "http://umbel.org/umbel/rc/Village": "umbel:Village",
+        "http://pt.dbpedia.org/resource/Osaka_(cidade)": "dbpedia:Osaka_(cidade)",
+        "http://sws.geonames.org/1853907/": "geonames:",
+        "http://ko.dbpedia.org/resource/오사카_시": "dbpedia:오사카_시",
+        "http://yago-knowledge.org/resource/Osaka": "yago-knowledge:Osaka",
+        "http://cs.dbpedia.org/resource/Ósaka": "dbpedia:Ósaka",
+        "http://linkedgeodata.org/triplify/node57563779": "linkedgeodata:node57563779",
+        "http://fr.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://id.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://wikidata.dbpedia.org/resource/Q35765": "dbpedia:Q35765",
+        "http://rdf.freebase.com/ns/m.0dqyw": "freebase:m.0dqyw",
+        "http://sw.cyc.com/concept/Mx4rvdnzt5wpEbGdrcN5Y29ycA": "cyc:Mx4rvdnzt5wpEbGdrcN5Y29ycA",
+        "http://nl.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://it.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://es.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://de.dbpedia.org/resource/Ōsaka": "dbpedia:Ōsaka",
+        "http://el.dbpedia.org/resource/Οσάκα": "dbpedia:Οσάκα",
+        "http://sws.geonames.org/1853909/": "geonames:",
+        "http://wikidata.org/entity/Q35765": "wikidata:Q35765",
+        "http://eu.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://gadm.geovocab.org/id/1_1489": "geovocab:1_1489",
+        "http://ja.dbpedia.org/resource/大阪市": "dbpedia:大阪市",
+        "http://pl.dbpedia.org/resource/Osaka": "dbpedia:Osaka",
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": "seeAlso",
+        "http://dbpedia.org/resource/Local_Autonomy_Law": "Ley de Autonomía Local (Japón)",
+        "http://dbpedia.org/resource/Twin_towns_and_sister_cities": "توأمة مدن",
+        "http://dbpedia.org/resource/Japan": "Japan",
+        "http://dbpedia.org/resource/Kamigata": "上方",
+        "http://dbpedia.org/resource/Lists_of_twin_towns_and_sister_cities": "Lists of twin towns and sister cities",
+        "http://dbpedia.org/resource/Kansai_dialect": "Kansai-Dialekt",
+        "http://xmlns.com/foaf/0.1/homepage": "homepage",
+        "http://www.city.osaka.lg.jp": "lg:www.city.osaka.lg.jp",
+        "http://xmlns.com/foaf/0.1/depiction": "depiction",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_montage.jpg": "wikimedia:Osaka_montage.jpg",
+        "http://en.wikipedia.org/wiki/Osaka?oldid=645096959": "wikipedia:Osaka?oldid=645096959",
+        "http://dbpedia.org/ontology/country": "Land",
+        "http://dbpedia.org/ontology/isPartOf": "es parte de",
+        "http://dbpedia.org/resource/Osaka_Prefecture": "Osaka Prefecture",
+        "http://dbpedia.org/resource/Kansai_region": "Kansai region",
+        "http://dbpedia.org/ontology/leaderName": "leader name",
+        "http://dbpedia.org/resource/Tōru_Hashimoto": "dbpedia:Tōru_Hashimoto",
+        "http://dbpedia.org/ontology/timeZone": "Zeitzone",
+        "http://dbpedia.org/resource/Japan_Standard_Time": "Huso horario estándar de Japón",
+        "http://dbpedia.org/ontology/type": "Typ",
+        "http://dbpedia.org/resource/Cities_designated_by_government_ordinance_of_Japan": "Ciudades japonesas designadas por decreto gubernamental",
+        "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": "isPrimaryTopicOf",
+        "http://en.wikipedia.org/wiki/Osaka": "wikipedia:Osaka",
+        "http://dbpedia.org/ontology/thumbnail": "thumbnail",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka_montage.jpg?width=300": "wikimedia:Osaka_montage.jpg?width=300",
+        "http://purl.org/dc/terms/subject": "subject",
+        "http://dbpedia.org/resource/Category:Port_settlements_in_Japan": "Port settlements in Japan",
+        "http://dbpedia.org/resource/Category:Populated_coastal_places_in_Japan": "Populated coastal places in Japan",
+        "http://dbpedia.org/resource/Category:Cities_in_Osaka_Prefecture": "Cities in Osaka Prefecture",
+        "http://dbpedia.org/ontology/wikiPageExternalLink": "Link from a Wikipage to an external page",
+        "http://www.pref.osaka.jp/en/": "osaka:",
+        "http://www.gojapango.com/travel/osaka.htm": "gojapango:osaka.htm",
+        "http://www.osaka-info.jp/en/": "osaka-info:",
+        "http://www.osaka-info.jp/osakabob/new/": "osaka-info:",
+        "http://www.city.osaka.lg.jp/contents/wdu020/english/": "lg:",
+        "http://www.city.osaka.lg.jp/contents/wdu020/shikai/english/": "lg:",
+        "http://www.questia.com/read/34221399?title=Visions%20of%20Virtue%20in%20Tokugawa%20Japan%3a%20The%20Kaitokudo%20Merchant%20Academy%20of%20Osaka": "questia:34221399?title=Visions%20of%20Virtue%20in%20Tokugawa%20Japan%3a%20The%20Kaitokudo%20Merchant%20Academy%20of%20Osaka",
+        "http://www.questia.com/read/105859766?title=The%20City%20as%20Subject%3a%20%20Seki%20Hajime%20and%20the%20Reinvention%20of%20Modern%20Osaka": "questia:105859766?title=The%20City%20as%20Subject%3a%20%20Seki%20Hajime%20and%20the%20Reinvention%20of%20Modern%20Osaka",
+        "http://www.questia.com/read/103760551?title=Osaka%2c%20the%20Merchant's%20Capital%20of%20Early%20Modern%20Japan": "questia:103760551?title=Osaka%2c%20the%20Merchant's%20Capital%20of%20Early%20Modern%20Japan",
+        "http://dbpedia.org/property/blank1InfoSec": "blank1 info sec",
+        "http://dbpedia.org/resource/Cherry_blossom": "Cherry blossom",
+        "http://dbpedia.org/property/blank2InfoSec": "blank2 info sec",
+        "http://dbpedia.org/resource/Pansy": "Pansy",
+        "http://dbpedia.org/property/data": "data",
+        "http://dbpedia.org/resource/Liberal_Democratic_Party_(Japan)": "Liberal Democratic Party (Japan)",
+        "http://dbpedia.org/resource/T%C5%8Dru_Hashimoto": "Tōru Hashimoto",
+        "http://dbpedia.org/property/leaderName": "leader name",
+        "http://dbpedia.org/property/settlementType": "settlement type",
+        "http://dbpedia.org/property/source": "source ",
+        "http://dbpedia.org/resource/World_Meteorological_Organization": "World Meteorological Organization",
+        "http://dbpedia.org/property/subdivisionName": "subdivision name",
+        "http://dbpedia.org/property/subdivisionType": "subdivision type",
+        "http://dbpedia.org/resource/List_of_sovereign_states": "Liste der Staaten der Erde",
+        "http://dbpedia.org/resource/Prefectures_of_Japan": "Prefectures of Japan",
+        "http://dbpedia.org/resource/List_of_regions_of_Japan": "مناطق اليابان",
+        "http://dbpedia.org/property/timezone": "TimeZone",
+        "http://dbpedia.org/property/website": "Website",
+        "http://dbpedia.org/property/hasPhotoCollection": "hasPhotoCollection",
+        "http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Osaka": "uni-mannheim:Osaka",
+        "http://dbpedia.org/resource/Ch%C5%AB%C5%8D-ku,_Osaka": "Chūō-ku (Osaka)",
+        "http://dbpedia.org/class/yago/Organism100004475": "dbpedia:Organism100004475",
+        "http://dbpedia.org/class/yago/CausalAgent100007347": "dbpedia:CausalAgent100007347",
+        "http://dbpedia.org/class/yago/WardsOfOsaka": "dbpedia:WardsOfOsaka",
+        "http://dbpedia.org/class/yago/Person100007846": "dbpedia:Person100007846",
+        "http://dbpedia.org/class/yago/LivingThing100004258": "dbpedia:LivingThing100004258",
+        "http://dbpedia.org/class/yago/Whole100003553": "dbpedia:Whole100003553",
+        "http://dbpedia.org/class/yago/Ward110767020": "dbpedia:Ward110767020",
+        "http://dbpedia.org/class/yago/YagoLegalActor": "dbpedia:YagoLegalActor",
+        "http://rdf.freebase.com/ns/m.024bsw": "freebase:m.024bsw",
+        "http://sws.geonames.org/7391689/": "geonames:",
+        "http://yago-knowledge.org/resource/Chūō-ku,_Osaka": "yago-knowledge:Chūō-ku,_Osaka",
+        "http://www.city.osaka.lg.jp/contents/wdu020/chuo/english/": "lg:",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Chuo-ku_in_Osaka_City.svg": "wikimedia:Chuo-ku_in_Osaka_City.svg",
+        "http://en.wikipedia.org/wiki/Chūō-ku,_Osaka?oldid=642118064": "wikipedia:Chūō-ku,_Osaka?oldid=642118064",
+        "http://en.wikipedia.org/wiki/Chūō-ku,_Osaka": "wikipedia:Chūō-ku,_Osaka",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Chuo-ku_in_Osaka_City.svg?width=300": "wikimedia:Chuo-ku_in_Osaka_City.svg?width=300",
+        "http://dbpedia.org/resource/Category:Wards_of_Osaka": "Wards of Osaka",
+        "http://dbpedia.org/resource/Category:Financial_districts": "Financial districts",
+        "http://www.city.osaka.lg.jp/chuo/": "lg:",
+        "http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Chūō-ku,_Osaka": "uni-mannheim:Chūō-ku,_Osaka",
+        "http://dbpedia.org/resource/Urban_park": "Urban park",
+        "http://dbpedia.org/class/yago/UrbanPublicParks": "dbpedia:UrbanPublicParks",
+        "http://dbpedia.org/class/yago/Park108615149": "dbpedia:Park108615149",
+        "http://fr.dbpedia.org/resource/Jardin_public": "dbpedia:Jardin_public",
+        "http://wikidata.org/entity/Q22746": "wikidata:Q22746",
+        "http://pt.dbpedia.org/resource/Área_verde_urbana": "dbpedia:Área_verde_urbana",
+        "http://yago-knowledge.org/resource/Urban_park": "yago-knowledge:Urban_park",
+        "http://nl.dbpedia.org/resource/Stadspark": "dbpedia:Stadspark",
+        "http://de.dbpedia.org/resource/Volksgarten": "dbpedia:Volksgarten",
+        "http://it.dbpedia.org/resource/Parco_cittadino": "dbpedia:Parco_cittadino",
+        "http://rdf.freebase.com/ns/m.07q_s3": "freebase:m.07q_s3",
+        "http://pl.dbpedia.org/resource/Park_miejski": "dbpedia:Park_miejski",
+        "http://es.dbpedia.org/resource/Parque_urbano": "dbpedia:Parque_urbano",
+        "http://wikidata.dbpedia.org/resource/Q22746": "dbpedia:Q22746",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Central_Park_from_Rock.jpg": "wikimedia:Central_Park_from_Rock.jpg",
+        "http://en.wikipedia.org/wiki/Urban_park?oldid=641932855": "wikipedia:Urban_park?oldid=641932855",
+        "http://en.wikipedia.org/wiki/Urban_park": "wikipedia:Urban_park",
+        "http://commons.wikimedia.org/wiki/Special:FilePath/Central_Park_from_Rock.jpg?width=300": "wikimedia:Central_Park_from_Rock.jpg?width=300",
+        "http://dbpedia.org/resource/Category:Urban_public_parks": "Urban public parks",
+        "http://www.pps.org/": "pps:",
+        "http://www.mupgsf.btik.com": "btik:www.mupgsf.btik.com",
+        "http://www.english-heritage.org.uk/publications/the-park-keeper/the-park-keeper.pdf": "org:the-park-keeper.pdf",
+        "http://www.gardenvisit.com/landscape/architecture/16.1-park-character.htm": "gardenvisit:16.1-park-character.htm",
+        "http://dbpedia.org/property/caption": "Caption",
+        "http://dbpedia.org/resource/Jay_Pritzker_Pavilion": "Pabellón Jay Pritzker",
+        "http://dbpedia.org/resource/Boeing_Galleries": "波音藝廊",
+        "http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Urban_park": "uni-mannheim:Urban_park",
+        "http://dbpedia.org/resource/Osaka_Castle_Park": "大阪城公園",
+        "http://dbpedia.org/class/yago/ParksAndGardensInOsaka": "dbpedia:ParksAndGardensInOsaka",
+        "http://dbpedia.org/ontology/location": "dbpedia:Location",
+        "http://dbpedia.org/resource/Chūō-ku,_Osaka": "dbpedia:Chūō-ku,_Osaka",
+        "http://en.wikipedia.org/wiki/Osaka_Castle_Park": "wikipedia:Osaka_Castle_Park",
+        "http://dbpedia.org/property/location": "location",
+        "http://dbpedia.org/property/type": "type",
+        "http://pl.dbpedia.org/resource/Chūō_(Osaka)": "dbpedia:Chūō_(Osaka)",
+        "http://it.dbpedia.org/resource/Chūō-ku_(Osaka)": "dbpedia:Chūō-ku_(Osaka)",
+        "http://wikidata.org/entity/Q876485": "wikidata:Q876485",
+        "http://eu.dbpedia.org/resource/Chūō-ku_(Osaka)": "dbpedia:Chūō-ku_(Osaka)",
+        "http://wikidata.dbpedia.org/resource/Q876485": "dbpedia:Q876485",
+        "http://es.dbpedia.org/resource/Chūō-ku_(Osaka)": "dbpedia:Chūō-ku_(Osaka)",
+        "http://ja.dbpedia.org/resource/中央区_(大阪市)": "dbpedia:中央区_(大阪市)",
+        "http://fr.dbpedia.org/resource/Chūō-ku_(Osaka)": "dbpedia:Chūō-ku_(Osaka)",
+        "http://ko.dbpedia.org/resource/주오_구_(오사카_시)": "dbpedia:주오_구_(오사카_시)",
+        "http://www.wikidata.org/ontology#Article": "wikidata:Article",
+        "http://xmlns.com/foaf/0.1/Document": "xmlns:Document",
+        "http://schema.org/about": "about",
+        "http://www.wikidata.org/entity/Q150118": "大阪城公園",
+        "http://yago-knowledge.org/resource/wordnet_location_100027167": "yago-knowledge:wordnet_location_100027167",
+        "http://yago-knowledge.org/resource/wordnet_object_100002684": "yago-knowledge:wordnet_object_100002684",
+        "http://yago-knowledge.org/resource/wordnet_park_108615149": "yago-knowledge:wordnet_park_108615149",
+        "http://yago-knowledge.org/resource/wordnet_region_108630985": "yago-knowledge:wordnet_region_108630985",
+        "http://yago-knowledge.org/resource/wordnet_tract_108673395": "yago-knowledge:wordnet_tract_108673395",
+        "http://yago-knowledge.org/resource/yagoGeoEntity": "yago-knowledge:yagoGeoEntity",
+        "http://yago-knowledge.org/resource/yagoLegalActorGeo": "yago-knowledge:yagoLegalActorGeo",
+        "http://yago-knowledge.org/resource/wordnet_geographical_area_108574314": "yago-knowledge:wordnet_geographical_area_108574314",
+        "http://yago-knowledge.org/resource/wordnet_physical_entity_100001930": "yago-knowledge:wordnet_physical_entity_100001930",
+        "http://yago-knowledge.org/resource/yagoPermanentlyLocatedEntity": "yago-knowledge:yagoPermanentlyLocatedEntity",
+        "http://yago-knowledge.org/resource/wikicategory_Parks_and_gardens_in_Osaka": "yago-knowledge:wikicategory_Parks_and_gardens_in_Osaka"
+    }
+}
