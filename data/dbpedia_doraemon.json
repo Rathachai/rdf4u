@@ -1,0 +1,826 @@
+{
+    "Triples": [
+        {
+            "subject": "http://www.w3.org/2002/07/owl#Thing",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.73
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:1969_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.47
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Adventure_anime_and_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.25
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Children's_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Comedy-drama_anime_and_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.3
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:CoroCoro_Comic",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.4
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Fantasy_anime_and_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Fictional_artificial_intelligences",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.32
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Fictional_cats",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.26
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Jetix",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Manga_adapted_into_films",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.27
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Programs_acquired_by_GMA_Network",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.33
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Science_fiction_anime_and_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.24
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Shapeshifting_in_fiction",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.28
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Shunsuke_Kikuchi",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.37
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:TV_Asahi_shows",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.29
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Viz_Media_anime",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.31
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Winner_of_Tezuka_Osamu_Cultural_Prize_(Grand_Prize)",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Category:Winners_of_the_Shogakukan_Manga_Award_for_children's_manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2004/02/skos/core#Concept",
+            "vw": 0.34
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Work",
+            "vw": 0.94
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Manga",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q386724",
+            "vw": 0.97
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.98
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q245068",
+            "vw": 1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/WrittenWork",
+            "vw": 0.95
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q8274",
+            "vw": 0.99
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Comic",
+            "vw": 0.96
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://dbpedia.org/ontology/author",
+            "object": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://dbpedia.org/ontology/type",
+            "object": "http://dbpedia.org/resource/Manga",
+            "vw": 0.01
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Fantasy_anime_and_manga",
+            "vw": 0.04
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Adventure_anime_and_manga",
+            "vw": 0.06
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:CoroCoro_Comic",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Doraemon",
+            "vw": 0.17
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Shapeshifting_in_fiction",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:TV_Asahi_shows",
+            "vw": 0.09
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Viz_Media_anime",
+            "vw": 0.12
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:1969_manga",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Winners_of_the_Shogakukan_Manga_Award_for_children's_manga",
+            "vw": 0.15
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Manga_adapted_into_films",
+            "vw": 0.08
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Fictional_cats",
+            "vw": 0.07
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Winner_of_Tezuka_Osamu_Cultural_Prize_(Grand_Prize)",
+            "vw": 0.19
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Fictional_artificial_intelligences",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Science_fiction_anime_and_manga",
+            "vw": 0.05
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Comedy-drama_anime_and_manga",
+            "vw": 0.11
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Programs_acquired_by_GMA_Network",
+            "vw": 0.13
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Fujiko_Fujio",
+            "vw": 0.18
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Shunsuke_Kikuchi",
+            "vw": 0.16
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Jetix",
+            "vw": 0.1
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://purl.org/dc/terms/subject",
+            "object": "http://dbpedia.org/resource/Category:Children's_manga",
+            "vw": 0.14
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://dbpedia.org/property/author",
+            "object": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "vw": 0.03
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Doraemon",
+            "predicate": "http://dbpedia.org/property/genre",
+            "object": "http://dbpedia.org/resource/Comedy-drama",
+            "vw": 0.02
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Artists'Books",
+            "vw": 0.52
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Magazine106595351",
+            "vw": 0.46
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Book106410904",
+            "vw": 0.43
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Medium106254669",
+            "vw": 0.38
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Whole100003553",
+            "vw": 0.5
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Publication106589574",
+            "vw": 0.41
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Creation103129123",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Instrumentality103575240",
+            "vw": 0.36
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.48
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Magazines",
+            "vw": 0.51
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Product104007894",
+            "vw": 0.39
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.49
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Work104599396",
+            "vw": 0.42
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PrintMedia106263609",
+            "vw": 0.44
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Press106263369",
+            "vw": 0.45
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Artifact100021939",
+            "vw": 0.35
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q245068",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/ontology#Item",
+            "vw": 0.23
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q245068",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.75
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q245068",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q2207288",
+            "vw": 0.22
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q386724",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q386724",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/ontology#Item",
+            "vw": 0.2
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q8274",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/ontology#Item",
+            "vw": 0.21
+        },
+        {
+            "subject": "http://www.wikidata.org/entity/Q8274",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.74
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Comic",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.71
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Manga",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.72
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/Work",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.69
+        },
+        {
+            "subject": "http://dbpedia.org/ontology/WrittenWork",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Class",
+            "vw": 0.7
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Cognition100023271",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/DramaGenres",
+            "vw": 0.68
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Idea105833840",
+            "vw": 0.57
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept",
+            "vw": 0.62
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Abstraction100002137",
+            "vw": 0.53
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Kind105839024",
+            "vw": 0.59
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+            "vw": 0.55
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Content105809192",
+            "vw": 0.56
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Category105838765",
+            "vw": 0.6
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/FilmGenres",
+            "vw": 0.65
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/ComedyGenres",
+            "vw": 0.67
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/TelevisionGenres",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/TopicalConcept",
+            "vw": 0.61
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Concept105835747",
+            "vw": 0.58
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q188451",
+            "vw": 0.61
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/MusicGenre",
+            "vw": 0.63
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.66
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Genre",
+            "vw": 0.54
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Comedy-drama",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Genre105845332",
+            "vw": 0.64
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Creator109614315",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Organism100004475",
+            "vw": 0.84
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://schema.org/Person",
+            "vw": 0.81
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PeopleFromToyamaPrefecture",
+            "vw": 0.93
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+            "vw": 0.8
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.w3.org/2002/07/owl#Thing",
+            "vw": 0.92
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q5",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+            "vw": 0.77
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActor",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Agent",
+            "vw": 0.76
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Whole100003553",
+            "vw": 0.9
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://xmlns.com/foaf/0.1/Person",
+            "vw": 0.79
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+            "vw": 0.88
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Person100007846",
+            "vw": 0.85
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Object100002684",
+            "vw": 0.89
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/CausalAgent100007347",
+            "vw": 0.86
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+            "vw": 0.82
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/MangaArtists",
+            "vw": 0.91
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/LivingThing100004258",
+            "vw": 0.83
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/class/yago/Artist109812338",
+            "vw": 0.87
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://www.wikidata.org/entity/Q215627",
+            "vw": 0.78
+        },
+        {
+            "subject": "http://dbpedia.org/resource/Fujiko_Fujio",
+            "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "object": "http://dbpedia.org/ontology/Person",
+            "vw": 0.92
+        }
+    ],
+    "Labels": {
+        "http://www.w3.org/2002/07/owl#Thing": "Thing",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": "type",
+        "http://www.w3.org/2002/07/owl#Class": "w3:Class",
+        "http://dbpedia.org/resource/Category:1969_manga": "1969 manga",
+        "http://www.w3.org/2004/02/skos/core#Concept": "w3:Concept",
+        "http://dbpedia.org/resource/Category:Adventure_anime_and_manga": "Adventure anime and manga",
+        "http://dbpedia.org/resource/Category:Children's_manga": "Children's manga",
+        "http://dbpedia.org/resource/Category:Comedy-drama_anime_and_manga": "Comedy-drama anime and manga",
+        "http://dbpedia.org/resource/Category:CoroCoro_Comic": "CoroCoro Comic",
+        "http://dbpedia.org/resource/Category:Doraemon": "Doraemon",
+        "http://dbpedia.org/resource/Category:Fantasy_anime_and_manga": "Fantasy anime and manga",
+        "http://dbpedia.org/resource/Category:Fictional_artificial_intelligences": "Fictional artificial intelligences",
+        "http://dbpedia.org/resource/Category:Fictional_cats": "Fictional cats",
+        "http://dbpedia.org/resource/Category:Fujiko_Fujio": "Fujiko Fujio",
+        "http://dbpedia.org/resource/Category:Jetix": "Jetix",
+        "http://dbpedia.org/resource/Category:Manga_adapted_into_films": "Manga adapted into films",
+        "http://dbpedia.org/resource/Category:Programs_acquired_by_GMA_Network": "Programs acquired by GMA Network",
+        "http://dbpedia.org/resource/Category:Science_fiction_anime_and_manga": "Science fiction anime and manga",
+        "http://dbpedia.org/resource/Category:Shapeshifting_in_fiction": "Shapeshifting in fiction",
+        "http://dbpedia.org/resource/Category:Shunsuke_Kikuchi": "Shunsuke Kikuchi",
+        "http://dbpedia.org/resource/Category:TV_Asahi_shows": "TV Asahi shows",
+        "http://dbpedia.org/resource/Category:Viz_Media_anime": "Viz Media anime",
+        "http://dbpedia.org/resource/Category:Winner_of_Tezuka_Osamu_Cultural_Prize_(Grand_Prize)": "Winner of Tezuka Osamu Cultural Prize (Grand Prize)",
+        "http://dbpedia.org/resource/Category:Winners_of_the_Shogakukan_Manga_Award_for_children's_manga": "Winners of the Shogakukan Manga Award for children's manga",
+        "http://dbpedia.org/resource/Doraemon": "Doraemon",
+        "http://dbpedia.org/ontology/Work": "Werk",
+        "http://dbpedia.org/ontology/Manga": "manga",
+        "http://www.wikidata.org/entity/Q386724": "Werk",
+        "http://www.wikidata.org/entity/Q245068": "Komiker",
+        "http://dbpedia.org/ontology/WrittenWork": "geschreven werk",
+        "http://www.wikidata.org/entity/Q8274": "manga",
+        "http://dbpedia.org/ontology/Comic": "Comic",
+        "http://dbpedia.org/ontology/author": "auteur",
+        "http://dbpedia.org/resource/Fujiko_Fujio": "Fujiko Fujio",
+        "http://dbpedia.org/ontology/type": "Typ",
+        "http://dbpedia.org/resource/Manga": "日本の漫画",
+        "http://purl.org/dc/terms/subject": "subject",
+        "http://dbpedia.org/property/author": "author",
+        "http://dbpedia.org/property/genre": "genre",
+        "http://dbpedia.org/resource/Comedy-drama": "Comedy-drama",
+        "http://dbpedia.org/class/yago/Artists'Books": "dbpedia:Artists'Books",
+        "http://dbpedia.org/class/yago/Magazine106595351": "dbpedia:Magazine106595351",
+        "http://dbpedia.org/class/yago/Book106410904": "dbpedia:Book106410904",
+        "http://dbpedia.org/class/yago/Medium106254669": "dbpedia:Medium106254669",
+        "http://dbpedia.org/class/yago/Whole100003553": "dbpedia:Whole100003553",
+        "http://dbpedia.org/class/yago/Publication106589574": "dbpedia:Publication106589574",
+        "http://dbpedia.org/class/yago/Creation103129123": "dbpedia:Creation103129123",
+        "http://dbpedia.org/class/yago/Instrumentality103575240": "dbpedia:Instrumentality103575240",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930": "dbpedia:PhysicalEntity100001930",
+        "http://dbpedia.org/class/yago/Magazines": "dbpedia:Magazines",
+        "http://dbpedia.org/class/yago/Product104007894": "dbpedia:Product104007894",
+        "http://dbpedia.org/class/yago/Object100002684": "dbpedia:Object100002684",
+        "http://dbpedia.org/class/yago/Work104599396": "dbpedia:Work104599396",
+        "http://dbpedia.org/class/yago/PrintMedia106263609": "dbpedia:PrintMedia106263609",
+        "http://dbpedia.org/class/yago/Press106263369": "dbpedia:Press106263369",
+        "http://dbpedia.org/class/yago/Artifact100021939": "dbpedia:Artifact100021939",
+        "http://www.wikidata.org/ontology#Item": "wikidata:Item",
+        "http://www.wikidata.org/entity/Q2207288": "métier",
+        "http://dbpedia.org/class/yago/Cognition100023271": "dbpedia:Cognition100023271",
+        "http://dbpedia.org/class/yago/DramaGenres": "dbpedia:DramaGenres",
+        "http://dbpedia.org/class/yago/Idea105833840": "dbpedia:Idea105833840",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept": "ontologydesignpatterns:Concept",
+        "http://dbpedia.org/class/yago/Abstraction100002137": "dbpedia:Abstraction100002137",
+        "http://dbpedia.org/class/yago/Kind105839024": "dbpedia:Kind105839024",
+        "http://dbpedia.org/class/yago/PsychologicalFeature100023100": "dbpedia:PsychologicalFeature100023100",
+        "http://dbpedia.org/class/yago/Content105809192": "dbpedia:Content105809192",
+        "http://dbpedia.org/class/yago/Category105838765": "dbpedia:Category105838765",
+        "http://dbpedia.org/class/yago/FilmGenres": "dbpedia:FilmGenres",
+        "http://dbpedia.org/class/yago/ComedyGenres": "dbpedia:ComedyGenres",
+        "http://dbpedia.org/class/yago/TelevisionGenres": "dbpedia:TelevisionGenres",
+        "http://dbpedia.org/ontology/TopicalConcept": "thematisches Konzept",
+        "http://dbpedia.org/class/yago/Concept105835747": "dbpedia:Concept105835747",
+        "http://www.wikidata.org/entity/Q188451": "genere musicale",
+        "http://dbpedia.org/ontology/MusicGenre": "genere musicale",
+        "http://dbpedia.org/ontology/Genre": "Genre",
+        "http://dbpedia.org/class/yago/Genre105845332": "dbpedia:Genre105845332",
+        "http://dbpedia.org/class/yago/Creator109614315": "dbpedia:Creator109614315",
+        "http://dbpedia.org/class/yago/Organism100004475": "dbpedia:Organism100004475",
+        "http://schema.org/Person": "schema:Person",
+        "http://dbpedia.org/class/yago/PeopleFromToyamaPrefecture": "dbpedia:PeopleFromToyamaPrefecture",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson": "ontologydesignpatterns:NaturalPerson",
+        "http://www.wikidata.org/entity/Q5": "human",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent": "ontologydesignpatterns:Agent",
+        "http://dbpedia.org/class/yago/YagoLegalActor": "dbpedia:YagoLegalActor",
+        "http://dbpedia.org/ontology/Agent": "Agent",
+        "http://xmlns.com/foaf/0.1/Person": "xmlns:Person",
+        "http://dbpedia.org/class/yago/Person100007846": "dbpedia:Person100007846",
+        "http://dbpedia.org/class/yago/CausalAgent100007347": "dbpedia:CausalAgent100007347",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo": "dbpedia:YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/MangaArtists": "dbpedia:MangaArtists",
+        "http://dbpedia.org/class/yago/LivingThing100004258": "dbpedia:LivingThing100004258",
+        "http://dbpedia.org/class/yago/Artist109812338": "dbpedia:Artist109812338",
+        "http://www.wikidata.org/entity/Q215627": "Person",
+        "http://dbpedia.org/ontology/Person": "Oseba"
+    }
+}
